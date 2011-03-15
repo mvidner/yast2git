@@ -15,6 +15,9 @@ match /trunk/
   branch master
 end match
 
+# either: branch svntag/foo
+# or: branch refs/tags/foo; anotated true
+
 match /tags/stable-([^/]+)/([^/]+)/
   repository modules
   branch refs/tags/\2/\1
@@ -56,18 +59,17 @@ match /branches/tmp/(SLE-11-SP1-Stash|SLE-11-WebYaST)/
   branch \1
 end match
 
+# /branches/tmp/username/*
+match /branches/tmp/([^/]+)/
+  repository modules
+  branch tmp/\1
+end match
+
 # Moblin, REFACTORING-10_3
 match /branches/([^/]+)/
   repository modules
   branch \1
 end match
-
-#match /tags/stable-([^/]+)/([^/]+)/
-#  repository modules
-#  branch svntag/\1
-#  prefix \2/
-#end match
-
 
 ##### Ignore everything else #####
 match /
