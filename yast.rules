@@ -1,0 +1,65 @@
+#create repository platform
+#end repository
+
+create repository modules
+end repository
+
+#match /trunk/(core|devtools)/
+#  repository platform
+#  prefix \1
+#  branch master
+#end match
+
+match /trunk/
+  repository modules
+  branch master
+end match
+
+# SuSE-Linux-9_3-Branch
+match /branches/SuSE-Linux-([^/]+)-Branch/
+  repository modules
+  branch \1
+end match
+
+# FIXME where is the stash?
+
+# SuSE-Code-11-Branch
+# SuSE-Code-11-SP2-Branch
+match /branches/SuSE-Code-([^/]+)-Branch/
+  repository modules
+  branch \1
+end match
+
+match /branches/SuSE-(SLE-[^/]+)-Branch/
+  repository modules
+  branch \1
+end match
+
+match /branches/tmp/(SLE-11-SP1-Stash|SLE-11-WebYaST)/
+  repository modules
+  branch \1
+end match
+
+# Moblin, REFACTORING-10_3
+match /branches/([^/]+)/
+  repository modules
+  branch \1
+end match
+
+#match /tags/stable-([^/]+)/([^/]+)/
+#  repository modules
+#  branch svntag/\1
+#  prefix \2/
+#end match
+
+match /tags/stable-([^/]+)/([^/]+)/
+  repository modules
+  branch refs/tags/\2/\1
+  annotated true
+  prefix \2/
+end match
+
+
+##### Ignore everything else #####
+match /
+end match

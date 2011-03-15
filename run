@@ -1,0 +1,9 @@
+#! /bin/sh
+mv run.log run.log.old
+#REVS="--max-rev 26000 --resume-from 19000"
+~/svn/svn2git/svn-all-fast-export \
+  --add-metadata \
+  --identity-map yast.map \
+  --rules yast.rules \
+  $REVS \
+  /home/mvidner/2/yast-copy 2>&1 | tee run.log
