@@ -10,7 +10,7 @@ bjacke Björn Jacke <bjacke@suse.de>
 bruclik Petr Ošťádal <postadal@suse.cz>
 btimothy Boyd Timothy <btimothy@novell.com>
 charlesa Charles Arnold <carnold@novell.com>
-chax chax <chax@suse.de>
+chax Chakravarthi P <pchakravarthi@novell.com>
 choeger Carsten Höger <choeger@suse.de>
 cihlarov Klára Cihlářová <cihlarov@suse.cz>
 ckornacker Christian Kornacker <ckornacker@suse.de>
@@ -18,37 +18,37 @@ cmeng Cong Meng <cmeng@novell.com>
 colyli Coly Li <colyli@suse.de>
 coolo Stephan Kulow <coolo@suse.de>
 cschum Cornelius Schumacher <cschum@suse.de>
-cseader cseader <cseader@suse.de>
+cseader Cameron Seader <cs@novell.com>
 cstein Christian Steinrücken <cstein@suse.de>
-curry curry <curry@suse.de>
+curry Michael Köhrmann <curry@suse.de>
 dan Daniel Veselý <dan@suse.cz>
-ddrewelow ddrewelow <ddrewelow@suse.de>
+ddrewelow David Drewelow <ddrewelow@suse.de>
 dfiser dfiser <dfiser@suse.cz>
 dmacvicar Duncan Mac-Vicar <dmacvicar@suse.de>
-dmeszar dmeszar <dmeszar@suse.de>
-DominicReynolds_ Dominic Reynolds <DominicReynolds@suse.de>
+dmeszar Dan Meszáros <dmeszar@suse.cz>
+DominicReynolds_ Dominic Reynolds <dreynolds@suse.de>
 etoulas Efthimios Toulas <etoulas@suse.de>
 fehr Thomas Fehr <fehr@suse.de>
-frankb frankb <frankb@suse.de>
+frankb Frank Balzer <frank.balzer@suse.com>
 freitag Klaas Freitag <freitag@suse.de>
 froh Susanne Oberhauser <froh@suse.de>
-ghillie ghillie <ghillie@suse.de>
+ghillie Gernot Hillier <ghillie@suse.de>
 gs Gabriele Mohr <gs@suse.de>
 hmacht Holger Macht <hmacht@suse.de>
 ihno Ihno Krumreich <ihno@suse.de>
-jbuch jbuch <jbuch@suse.de>
+jbuch Johannes Buchhold <jbuch@suse.de>
 jdsn J. Daniel Schmidt <jdsn@suse.de>
 jhumpol Jiří Humpolíček <jhumpol@suse.cz>
-jimmacfx Jakub Steiner <jimmacfx@suse.de>
+jimmacfx Jakub Steiner <jimmac@novell.com>
 jj Jörg Arndt <jj@suse.de>
-jjones jjones <jjones@suse.de>
+jjones Jack Jones <jjones@novell.com>
 jkupec Ján Kupec <jkupec@suse.cz>
-jmichael-at-suse-de jmichael <jmichael@suse.de>
-jones_tony jones_tony <jones_tony@suse.de>
+jmichael-at-suse-de Jesse Michael <jmichael@suse.de>
+jones_tony Tony Jones <tonyj@suse.de>
 jplack Joachim Plack <jplack@suse.de>
-jproseve jproseve <jproseve@suse.de>
+jproseve JP Rosevear  <jpr@novell.com>
 jreidinger Josef Reidinger <jreidinger@suse.cz>
-jrjohansen jrjohansen <jrjohansen@suse.de>
+jrjohansen John Johansen <jjohansen@suse.de>
 jsmeix Johannes Meixner <jsmeix@suse.de>
 jsrain Jiří Šrain <jsrain@suse.cz>
 jsuchome Jiří Suchomel <jsuchome@suse.cz>
@@ -65,8 +65,8 @@ locilka Lukáš Ocilka <locilka@suse.cz>
 lrupp Lars Vogdt <lrupp@suse.de>
 lslezak Ladislav Slezák <lslezak@suse.cz>
 ma Michael Andres <ma@suse.de>
-mac Marc Ruehrschneck <mac@suse.de>
-maxxx maxxx <maxxx@suse.de>
+mac Marc Rührschneck <mac@suse.de>
+maxxx Maksym Borovytskiy <maxxx@suse.de>
 mbarringer Matt Barringer <mbarringer@suse.de>
 mc Michael Calmer <mc@suse.de>
 mcalmer Michael Calmer <mc@suse.de>
@@ -80,17 +80,17 @@ mkudlvasr Martin Kudlvasr <mkudlvasr@suse.cz>
 mlandres Michael Andres <ma@suse.de>
 mlazar Martin Lazar <mlazar@suse.cz>
 mmeeks Michael Meeks <mmeeks@novell.com>
-mpatelcz mpatelcz <mpatelcz@suse.de>
+mpatelcz Maciej Patelczyk <maciej.patelczyk@intel.com>
 ms Marcus Schäfer <ms@suse.de>
-msommer Marting Sommer <msommer@suse.de>
+msommer Martin Sommer <msommer@suse.de>
 msvec Michal Švec <msvec@suse.cz>
 mt Marius Tomaschewski <mt@suse.de>
 mvidner Martin Vidner <mvidner@suse.cz>
 mzugec Michal Žugec <mzugec@suse.cz>
 nashif Anas Nashif <nashif@suse.de>
 odabrunz Olaf Dabrunz <odabrunz@suse.de>
-olh olh <olh@suse.de>
-openvasfelix openvasfelix <openvasfelix@suse.de>
+olh Olaf Hering <ohering@suse.de>
+openvasfelix Felix Wolfsteller <felix.wolfsteller@greenbone.net>
 pblahos Petr Blahoš <pblahos@suse.cz>
 phadraba Petr Hadraba <phadraba@suse.cz>
 pnemec Pavel Němec <pnemec@suse.cz>
@@ -98,14 +98,14 @@ poeml Peter Pöml <poeml@suse.de>
 pth Philipp Thomas <pth@suse.de>
 rhafer Ralf Haferkamp <rhafer@suse.de>
 rpmcruz Ricardo Cruz <rpmcruz@alunos.dcc.fc.up.pt>
-sax2 sax2 <sax2@suse.de>
+sax2 Marcus Schäfer <ms@suse.de>
 schubi Stefan Schubert <schubi@suse.de>
 schubi2 Stefan Schubert <schubi@suse.de>
 schwab Andreas Schwab <schwab@suse.de>
-seth_arnold seth_arnold <seth_arnold@suse.de>
+seth_arnold Seth Arnold <seth.arnold@suse.de>
 sf Stefan Fent <sf@suse.de>
 sh Stefan Hundhammer <sh@suse.de>
-shaas shaas <shaas@suse.de>
+shaas Stefan Haas <shaas@suse.de>
 sh-sh-sh Stefan Hundhammer <sh@suse.de>
 sigi Siegfried Olschner <sigi@suse.de>
 snwint Steffen Winterfeldt <snwint@suse.de>
@@ -113,21 +113,21 @@ sreeves Scott Reeves <sreeves@novell.com>
 sreeves1 Scott Reeves <sreeves@novell.com>
 stark Wolfgang Rosenauer <stark@suse.de>
 stepan Stefan Reinauer <stepan@suse.de>
-steve-beattie steve-beattie <steve-beattie@suse.de>
-strbac strbac <strbac@suse.de>
+steve-beattie Steve Beattie <sbeattie@novell.com>
+strbac David Strbac <strbac@suse.de>
 svnadmin svnadmin <svnadmin@suse.de>
-tgoettlicher Thomas Goettlicher <tgoettlicher@suse.de>
-thofmann thofmann <thofmann@suse.de>
+tgoettlicher Thomas Göttlicher <tgoettlicher@suse.de>
+thofmann Thomas Hofmann <thofmann@suse.de>
 tiwai Takashi Iwai <tiwai@suse.de>
-tklapka Tomáš Klapka <tklapka@suse.de>
-tom tom <tom@suse.de>
+tklapka Tomáš Klapka <tklapka@suse.cz>
+tom Thomas Rölz <tom@suse.de>
 ug Uwe Gansert <ug@suse.de>
 uli Ulrich Hecht <uli@suse.de>
 uli_suse Ulrich Hecht <uli@suse.de>
-us us <us@suse.de>
+us Ulrich Schairer <us@suse.de>
 varkoly Péter Varkoly <varkoly@suse.de>
 visnov Stanislav Višňovský <visnov@suse.cz>
 vuntz Vincent Untz <vuntz@novell.com>
-wimer wimer <wimer@suse.de>
-wrwhitehead wrwhitehead <wrwhitehead@suse.de>
+wimer Kenneth Wimer <wimer@suse.de>
+wrwhitehead Robert Whitehead <wrwhitehead@novell.com>
 xwhu Xin Wei Hu <xwhu@novell.com>
