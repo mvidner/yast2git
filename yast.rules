@@ -15,24 +15,40 @@ match /trunk/
   branch master
 end match
 
+match /tags/stable-([^/]+)/([^/]+)/
+  repository modules
+  branch refs/tags/\2/\1
+  annotated true
+  prefix \2/
+end match
+
 # SuSE-Linux-9_3-Branch
 match /branches/SuSE-Linux-([^/]+)-Branch/
   repository modules
   branch \1
 end match
 
-# FIXME where is the stash?
+# /tags/branch-Linux-11_4-2_20_5/storage/
+match /tags/branch-Linux-([^/]+)-([^/]+)/([^/]+)/
+  repository modules
+  branch refs/tags/\3/\1/\2
+  annotated true
+  prefix \3/
+end match
 
 # SuSE-Code-11-Branch
 # SuSE-Code-11-SP2-Branch
-match /branches/SuSE-Code-([^/]+)-Branch/
+match /branches/SuSE-([^/]+)-Branch/
   repository modules
   branch \1
 end match
 
-match /branches/SuSE-(SLE-[^/]+)-Branch/
+# /tags/branch-Code-11-SP1-2_17_38_2/product-creator
+match /tags/branch-([^/]+)-([^/]+)/([^/]+)/
   repository modules
-  branch \1
+  branch refs/tags/\3/\1/\2
+  annotated true
+  prefix \3/
 end match
 
 match /branches/tmp/(SLE-11-SP1-Stash|SLE-11-WebYaST)/
@@ -51,13 +67,6 @@ end match
 #  branch svntag/\1
 #  prefix \2/
 #end match
-
-match /tags/stable-([^/]+)/([^/]+)/
-  repository modules
-  branch refs/tags/\2/\1
-  annotated true
-  prefix \2/
-end match
 
 
 ##### Ignore everything else #####
