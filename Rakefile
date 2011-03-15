@@ -4,7 +4,7 @@ def abs(filename)
   File.expand_path filename
 end
 
-SVN_DIR = "yast-svn"
+SVN_DIR = abs "yast-svn"
 GIT_LOCAL_DIR = "yast-git"
 GIT_PUBLIC_DIR = "/srv/git"
 
@@ -23,7 +23,8 @@ def convert
   if on_nfs?
     puts "Warning, running this on NFS will slow things down"
   end
-  min = "--resume-from 60000"
+  min = ""
+#  min = "--resume-from 63000"
   sh "#{CONVERTOR} --add-metadata " +
     "--identity-map #{MAP} --rules #{RULES} #{min} " +
     SVN_DIR + " 2>&1 | tee run.log"
