@@ -36,6 +36,13 @@ def timestamped(&block)
   chdir stamp_name, &block
 end
 
+desc "Run the conversion, in a new directory"
 task :default do
   timestamped { convert }
+end
+
+desc "Format the README to HTML"
+task :doc => "README.html"
+file "README.html" => "README.markdown" do |t|
+  sh "markdown #{t.prerequisites.first} > #{t.name}"
 end
