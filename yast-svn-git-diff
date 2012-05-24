@@ -1,4 +1,4 @@
-#!/bin/sh -ex
+#!/bin/sh -e
 
 # check whether svn to git migration produces identical trees
 
@@ -16,7 +16,7 @@ GITBRANCH="$3"
 NAME="${4-${SVNREPO##*/}}"
 
 DIR=`mktemp -d`
-cd $DIR
+pushd $DIR >/dev/null
 
 svn export --quiet --ignore-keywords $SVNREPO $NAME-svn
 git archive --format=tar --prefix $NAME-git/ --remote=$GITREPO origin/$GITBRANCH | \
@@ -24,5 +24,5 @@ git archive --format=tar --prefix $NAME-git/ --remote=$GITREPO origin/$GITBRANCH
 
 diff -urN $NAME-svn $NAME-git || :
 
-cd ..
+popd >/dev/null
 rm -rf $DIR

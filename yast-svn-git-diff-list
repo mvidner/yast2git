@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+# for i in `seq 5`; do curl -f -o repos$i.json https://api.github.com/users/yast/repos?page=$i; done
+
+require 'rubygems'
+require 'json'
+
+repos = []
+(1..5).each do |i|
+  repos += JSON.parse(IO.read "repos#{i}.json")
+end
+
+repos.map do |r|
+  name = r["name"]
+  next if name == "yast--"
+  name[/^yast-/] = ""
+  puts name
+end
+

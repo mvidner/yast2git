@@ -1,5 +1,6 @@
 #!/bin/sh -e
-MODULES="network core"
+MYDIR=`dirname $0`
+MODULES="$(cat $MYDIR/yast-svn-git-diff.list)"
 
 BRANCHES="master
 openSUSE-12_1
@@ -9,15 +10,21 @@ Code-11-SP1
 SLE-10-SP4
 SLE-10-SP3"
 
-#SVNROOT=http://svn.opensuse.org/svn/yast
+#SVNROOT=https://svn.opensuse.org/svn/yast
 SVNROOT=file:///home/mvidner/2/yast2git/yast-svn
-#GITROOT=git://github.com/yast
-GITROOT=file:///home/mvidner/svn/yast-%s
+GITROOT=git://github.com/yast/yast-%s.git
 
 
 for MODULE in $MODULES; do
-    GITREPO=`printf $GITROOT $MODULE`
-
+    
+    # cannot get github to archive. clone first, shallow is enough
+    DIR=`mktemp -d --tmpdir git-$MODULE-XXXX`
+    pushd $DIR >/dev/null
+    REMOTE=`printf $GITROOT $MODULE`
+    echo $REMOTE
+    git clone --depth 1 $REMOTE .
+    GITREPO=file://`pwd`
+    popd >/dev/null
     for BRANCH in $BRANCHES; do
 
         case $BRANCH in
@@ -32,9 +39,15 @@ for MODULE in $MODULES; do
         esac
 
         SVNREPO=$SVNROOT/${SVNBRANCH?}/$MODULE
+        if ! svn info $SVNREPO > /dev/null; then
+            echo "$MODULE does not exist in $BRANCH, skipping"
+            continue
+        fi
 
         DIFF=$MODULE-$BRANCH.diff
-        `dirname $0`/yast-svn-git-diff $SVNREPO $GITREPO $BRANCH > $DIFF
+        $MYDIR/yast-svn-git-diff $SVNREPO $GITREPO $BRANCH > $DIFF
         diffstat $DIFF
     done
+
+    rm -rf $DIR
 done
