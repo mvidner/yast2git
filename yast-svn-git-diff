@@ -19,10 +19,12 @@ DIR=`mktemp -d`
 pushd $DIR >/dev/null
 
 svn export --quiet --ignore-keywords $SVNREPO $NAME-svn
-git archive --format=tar --prefix $NAME-git/ --remote=$GITREPO origin/$GITBRANCH | \
-    tar xf -
+LAST_SVN_TREE=$(cd ${GITREPO#file://}; git rev-list -n1 --until=2012-05-17 $GITBRANCH)
+git archive --format=tar --prefix $NAME-git/ \
+    --remote=$GITREPO $LAST_SVN_TREE \
+    | tar xf -
 
-diff -urN $NAME-svn $NAME-git || :
+git diff $NAME-svn $NAME-git || :
 
 popd >/dev/null
 rm -rf $DIR

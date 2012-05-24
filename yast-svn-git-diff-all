@@ -1,5 +1,6 @@
 #!/bin/sh -e
 MYDIR=`dirname $0`
+
 MODULES="$(cat $MYDIR/yast-svn-git-diff.list)"
 
 BRANCHES="master
@@ -14,17 +15,23 @@ SLE-10-SP3"
 SVNROOT=file:///home/mvidner/2/yast2git/yast-svn
 GITROOT=git://github.com/yast/yast-%s.git
 
+GITCACHE=/var/tmp/github-yast
+mkdir -p $GITCACHE
 
 for MODULE in $MODULES; do
-    
-    # cannot get github to archive. clone first, shallow is enough
-    DIR=`mktemp -d --tmpdir git-$MODULE-XXXX`
-    pushd $DIR >/dev/null
     REMOTE=`printf $GITROOT $MODULE`
     echo $REMOTE
-    git clone --depth 1 $REMOTE .
-    GITREPO=file://`pwd`
+
+    # cannot get github to archive. clone first, shallow is enough
+    pushd $GITCACHE >/dev/null
+    if [ -d $MODULE/.git -o -f $MODULE/HEAD ]; then
+        (cd $MODULE; git fetch)
+    else
+        git clone --mirror $REMOTE $MODULE
+    fi
+    GITREPO=file://`pwd`/$MODULE
     popd >/dev/null
+
     for BRANCH in $BRANCHES; do
 
         case $BRANCH in
