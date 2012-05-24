@@ -1,0 +1,27 @@
+diff --git a/perl-bindings-svn/pluglib-bindings/stylesheets/filter.pl b/perl-bindings-git/pluglib-bindings/stylesheets/filter.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/BloCxx/String/test.pl b/perl-bindings-git/pluglib-bindings/tests/BloCxx/String/test.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/Reference/test.pl b/perl-bindings-git/pluglib-bindings/tests/Reference/test.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/Reference/test.ycp b/perl-bindings-git/pluglib-bindings/tests/Reference/test.ycp
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/std/Hash/test.pl b/perl-bindings-git/pluglib-bindings/tests/std/Hash/test.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/std/List/test.pl b/perl-bindings-git/pluglib-bindings/tests/std/List/test.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/pluglib-bindings/tests/std/ListList/test.pl b/perl-bindings-git/pluglib-bindings/tests/std/ListList/test.pl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/testsuite/test-perl b/perl-bindings-git/testsuite/test-perl
+old mode 100755
+new mode 100644
+diff --git a/perl-bindings-svn/testsuite/test-yast b/perl-bindings-git/testsuite/test-yast
+old mode 100755
+new mode 100644

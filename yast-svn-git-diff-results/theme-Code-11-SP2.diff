@@ -1,0 +1,378 @@
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-backup.png b/theme-git/openSUSE/icons/22x22/apps/yast-backup.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-bootfloppy.png b/theme-git/openSUSE/icons/22x22/apps/yast-bootfloppy.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-bootloader.png b/theme-git/openSUSE/icons/22x22/apps/yast-bootloader.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-bootmsg.png b/theme-git/openSUSE/icons/22x22/apps/yast-bootmsg.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-cd_update.png b/theme-git/openSUSE/icons/22x22/apps/yast-cd_update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-controller.png b/theme-git/openSUSE/icons/22x22/apps/yast-controller.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-dhcp-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-dhcp-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-disk.png b/theme-git/openSUSE/icons/22x22/apps/yast-disk.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-dns-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-dns-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-dsl.png b/theme-git/openSUSE/icons/22x22/apps/yast-dsl.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-files.png b/theme-git/openSUSE/icons/22x22/apps/yast-files.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-firewall.png b/theme-git/openSUSE/icons/22x22/apps/yast-firewall.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-general.png b/theme-git/openSUSE/icons/22x22/apps/yast-general.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-groups.png b/theme-git/openSUSE/icons/22x22/apps/yast-groups.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-heartbeat.png b/theme-git/openSUSE/icons/22x22/apps/yast-heartbeat.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-http-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-http-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-hwinfo.png b/theme-git/openSUSE/icons/22x22/apps/yast-hwinfo.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-inetd.png b/theme-git/openSUSE/icons/22x22/apps/yast-inetd.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-isdn.png b/theme-git/openSUSE/icons/22x22/apps/yast-isdn.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-joystick.png b/theme-git/openSUSE/icons/22x22/apps/yast-joystick.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-kerberos.png b/theme-git/openSUSE/icons/22x22/apps/yast-kerberos.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-keyboard.png b/theme-git/openSUSE/icons/22x22/apps/yast-keyboard.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-lan.png b/theme-git/openSUSE/icons/22x22/apps/yast-lan.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-language.png b/theme-git/openSUSE/icons/22x22/apps/yast-language.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-ldap-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-ldap-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-ldap.png b/theme-git/openSUSE/icons/22x22/apps/yast-ldap.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-lvm_config.png b/theme-git/openSUSE/icons/22x22/apps/yast-lvm_config.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-mail.png b/theme-git/openSUSE/icons/22x22/apps/yast-mail.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-messages.png b/theme-git/openSUSE/icons/22x22/apps/yast-messages.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-modem.png b/theme-git/openSUSE/icons/22x22/apps/yast-modem.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-mouse.png b/theme-git/openSUSE/icons/22x22/apps/yast-mouse.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-network.png b/theme-git/openSUSE/icons/22x22/apps/yast-network.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-nfs.png b/theme-git/openSUSE/icons/22x22/apps/yast-nfs.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-nfs_server.png b/theme-git/openSUSE/icons/22x22/apps/yast-nfs_server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-nis.png b/theme-git/openSUSE/icons/22x22/apps/yast-nis.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-nis_server.png b/theme-git/openSUSE/icons/22x22/apps/yast-nis_server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-online_update.png b/theme-git/openSUSE/icons/22x22/apps/yast-online_update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-partitioning.png b/theme-git/openSUSE/icons/22x22/apps/yast-partitioning.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-pci_id.png b/theme-git/openSUSE/icons/22x22/apps/yast-pci_id.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-powertweak.png b/theme-git/openSUSE/icons/22x22/apps/yast-powertweak.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-printer.png b/theme-git/openSUSE/icons/22x22/apps/yast-printer.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-profile-manager.png b/theme-git/openSUSE/icons/22x22/apps/yast-profile-manager.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-proxy.png b/theme-git/openSUSE/icons/22x22/apps/yast-proxy.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-remote.png b/theme-git/openSUSE/icons/22x22/apps/yast-remote.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-repair.png b/theme-git/openSUSE/icons/22x22/apps/yast-repair.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-report.png b/theme-git/openSUSE/icons/22x22/apps/yast-report.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-restore.png b/theme-git/openSUSE/icons/22x22/apps/yast-restore.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-routing.png b/theme-git/openSUSE/icons/22x22/apps/yast-routing.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-runlevel.png b/theme-git/openSUSE/icons/22x22/apps/yast-runlevel.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-samba-client.png b/theme-git/openSUSE/icons/22x22/apps/yast-samba-client.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-samba-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-samba-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-scanner.png b/theme-git/openSUSE/icons/22x22/apps/yast-scanner.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-scripts.png b/theme-git/openSUSE/icons/22x22/apps/yast-scripts.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-security.png b/theme-git/openSUSE/icons/22x22/apps/yast-security.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-software.png b/theme-git/openSUSE/icons/22x22/apps/yast-software.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-sound.png b/theme-git/openSUSE/icons/22x22/apps/yast-sound.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-support.png b/theme-git/openSUSE/icons/22x22/apps/yast-support.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-sw_single.png b/theme-git/openSUSE/icons/22x22/apps/yast-sw_single.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-sw_source.png b/theme-git/openSUSE/icons/22x22/apps/yast-sw_source.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-tftp-server.png b/theme-git/openSUSE/icons/22x22/apps/yast-tftp-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-timezone.png b/theme-git/openSUSE/icons/22x22/apps/yast-timezone.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-tv.png b/theme-git/openSUSE/icons/22x22/apps/yast-tv.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-update.png b/theme-git/openSUSE/icons/22x22/apps/yast-update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-users.png b/theme-git/openSUSE/icons/22x22/apps/yast-users.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-vendor.png b/theme-git/openSUSE/icons/22x22/apps/yast-vendor.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE/icons/22x22/apps/yast-you_server.png b/theme-git/openSUSE/icons/22x22/apps/yast-you_server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-backup.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-backup.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-bootfloppy.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-bootfloppy.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-bootloader.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-bootloader.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-bootmsg.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-bootmsg.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-cd_update.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-cd_update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-controller.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-controller.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-dhcp-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-dhcp-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-disk.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-disk.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-dns-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-dns-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-dsl.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-dsl.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-firewall.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-firewall.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-groups.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-groups.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-heartbeat.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-heartbeat.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-http-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-http-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-hwinfo.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-hwinfo.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-inetd.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-inetd.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-isdn.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-isdn.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-joystick.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-joystick.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-kerberos.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-kerberos.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-keyboard.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-keyboard.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-lan.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-lan.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-ldap-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-ldap-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-ldap.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-ldap.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-lvm_config.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-lvm_config.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-mail.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-mail.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-messages.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-messages.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-modem.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-modem.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-mouse.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-mouse.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-network.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-network.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-nfs.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-nfs.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-nfs_server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-nfs_server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-nis.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-nis.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-nis_server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-nis_server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-online_update.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-online_update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-partitioning.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-partitioning.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-pci_id.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-pci_id.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-powertweak.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-powertweak.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-printer.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-printer.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-profile-manager.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-profile-manager.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-proxy.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-proxy.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-remote.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-remote.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-restore.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-restore.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-routing.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-routing.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-runlevel.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-runlevel.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-samba-client.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-samba-client.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-samba-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-samba-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-scanner.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-scanner.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-security.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-security.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-software.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-software.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-sound.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-sound.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-support.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-support.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-sw_single.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-sw_single.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-sw_source.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-sw_source.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-tftp-server.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-tftp-server.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-timezone.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-timezone.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-tv.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-tv.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-update.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-update.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-users.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-users.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Crystal/icons/22x22/apps/yast-vendor.png b/theme-git/openSUSE-Crystal/icons/22x22/apps/yast-vendor.png
+old mode 100755
+new mode 100644
+diff --git a/theme-svn/openSUSE-Oxygen/icons/22x22/apps/yast-partitioning.png b/theme-git/openSUSE-Oxygen/icons/22x22/apps/yast-partitioning.png
+old mode 100755
+new mode 100644

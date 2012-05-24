@@ -1,0 +1,13 @@
+diff --git a/pam-svn/testsuite/tests/Read.out b/pam-git/testsuite/tests/Read.out
+index e69de29..5b2fa1f 100644
+--- a/pam-svn/testsuite/tests/Read.out
++++ b/pam-git/testsuite/tests/Read.out
+@@ -0,0 +1,8 @@
++Dump	==== PamSettings::GetFiles: =============================
++Dir	.etc.security.section: ["/etc/security/pam_pwcheck.conf", "/etc/security/pam_unix2.conf"]
++Return	["/etc/security/pam_pwcheck.conf", "/etc/security/pam_unix2.conf"]
++Dump	==== PamSettings::GetValues ("unix2", "passwd") =====
++Read	.etc.security.v."/etc/security/pam_unix2.conf"."passwd" "nullok use_ldap"
++Return	["nullok", "use_ldap"]
++Read	.etc.security.v."/etc/security/pam_unix2.conf"."auth" nil
++Return	[]

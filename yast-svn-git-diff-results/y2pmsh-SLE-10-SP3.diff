@@ -1,0 +1,6 @@
+diff --git a/y2pmsh-svn/config/sudoy2pmbuild b/y2pmsh-git/config/sudoy2pmbuild
+old mode 100755
+new mode 100644
+diff --git a/y2pmsh-svn/src/y2pmbuild b/y2pmsh-git/src/y2pmbuild
+old mode 100755
+new mode 100644

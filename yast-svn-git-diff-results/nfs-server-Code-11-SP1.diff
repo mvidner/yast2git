@@ -1,0 +1,9 @@
+diff --git a/nfs-server-svn/agents/ag_exports b/nfs-server-git/agents/ag_exports
+old mode 100755
+new mode 100644
+diff --git a/nfs-server-svn/agents/ag_idmapd_conf b/nfs-server-git/agents/ag_idmapd_conf
+old mode 100755
+new mode 100644
+diff --git a/nfs-server-svn/testsuite/run/runtest-epag.sh b/nfs-server-git/testsuite/run/runtest-epag.sh
+old mode 100755
+new mode 100644

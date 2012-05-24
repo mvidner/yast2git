@@ -1,0 +1,12 @@
+diff --git a/backup-svn/agents/ag_free_space b/backup-git/agents/ag_free_space
+old mode 100755
+new mode 100644
+diff --git a/backup-svn/src/scripts/backup_archive.pl b/backup-git/src/scripts/backup_archive.pl
+old mode 100755
+new mode 100644
+diff --git a/backup-svn/src/scripts/backup_cron b/backup-git/src/scripts/backup_cron
+old mode 100755
+new mode 100644
+diff --git a/backup-svn/src/scripts/backup_search.pl b/backup-git/src/scripts/backup_search.pl
+old mode 100755
+new mode 100644

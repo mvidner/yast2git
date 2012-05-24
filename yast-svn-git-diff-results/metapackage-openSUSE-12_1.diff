@@ -1,0 +1,6 @@
+diff --git a/metapackage-svn/src/OneClickInstallCLI b/metapackage-git/src/OneClickInstallCLI
+old mode 100755
+new mode 100644
+diff --git a/metapackage-svn/src/OneClickInstallUrlHandler b/metapackage-git/src/OneClickInstallUrlHandler
+old mode 100755
+new mode 100644

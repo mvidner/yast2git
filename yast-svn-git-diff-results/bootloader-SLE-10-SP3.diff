@@ -1,0 +1,15 @@
+diff --git a/bootloader-svn/doc/bootloader.xml b/bootloader-git/doc/bootloader.xml
+old mode 100755
+new mode 100644
+diff --git a/bootloader-svn/scripts/doaboot b/bootloader-git/scripts/doaboot
+old mode 100755
+new mode 100644
+diff --git a/bootloader-svn/scripts/domilo b/bootloader-git/scripts/domilo
+old mode 100755
+new mode 100644
+diff --git a/bootloader-svn/scripts/ppc_postinstall.sh b/bootloader-git/scripts/ppc_postinstall.sh
+old mode 100755
+new mode 100644
+diff --git a/bootloader-svn/scripts/update_gfxmenu b/bootloader-git/scripts/update_gfxmenu
+old mode 100755
+new mode 100644

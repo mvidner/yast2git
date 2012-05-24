@@ -1,0 +1,3 @@
+diff --git a/schema-svn/scripts/collect.sh b/schema-git/scripts/collect.sh
+old mode 100755
+new mode 100644

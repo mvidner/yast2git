@@ -1,0 +1,18 @@
+diff --git a/mail-svn/agents/ag_fetchmailrc b/mail-git/agents/ag_fetchmailrc
+old mode 100755
+new mode 100644
+diff --git a/mail-svn/agents/ag_mailtable b/mail-git/agents/ag_mailtable
+old mode 100755
+new mode 100644
+diff --git a/mail-svn/agents/ag_smtp_auth b/mail-git/agents/ag_smtp_auth
+old mode 100755
+new mode 100644
+diff --git a/mail-svn/agents/setup_dkim_verifying.pl b/mail-git/agents/setup_dkim_verifying.pl
+old mode 100755
+new mode 100644
+diff --git a/mail-svn/agents/test-mailtable b/mail-git/agents/test-mailtable
+old mode 100755
+new mode 100644
+diff --git a/mail-svn/testsuite/run/runtest-epag.sh b/mail-git/testsuite/run/runtest-epag.sh
+old mode 100755
+new mode 100644

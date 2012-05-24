@@ -1,0 +1,9 @@
+diff --git a/ca-management-svn/scripts/exportCRL.pl b/ca-management-git/scripts/exportCRL.pl
+old mode 100755
+new mode 100644
+diff --git a/ca-management-svn/scripts/generateCRL.pl b/ca-management-git/scripts/generateCRL.pl
+old mode 100755
+new mode 100644
+diff --git a/ca-management-svn/testsuite/full-test.pl b/ca-management-git/testsuite/full-test.pl
+old mode 100755
+new mode 100644

@@ -1,0 +1,54 @@
+diff --git a/installation-svn/startup/First-Stage/F03-umount b/installation-git/startup/First-Stage/F03-umount
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F04-language b/installation-git/startup/First-Stage/F04-language
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F05-cmdline b/installation-git/startup/First-Stage/F05-cmdline
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F06-terminal b/installation-git/startup/First-Stage/F06-terminal
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F08-logging b/installation-git/startup/First-Stage/F08-logging
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F09-start b/installation-git/startup/First-Stage/F09-start
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/First-Stage/F10-cleanup b/installation-git/startup/First-Stage/F10-cleanup
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S02-logging b/installation-git/startup/Second-Stage/S02-logging
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S04-language b/installation-git/startup/Second-Stage/S04-language
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S05-config b/installation-git/startup/Second-Stage/S05-config
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S06-services b/installation-git/startup/Second-Stage/S06-services
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S07-medium b/installation-git/startup/Second-Stage/S07-medium
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S08-start b/installation-git/startup/Second-Stage/S08-start
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/Second-Stage/S09-cleanup b/installation-git/startup/Second-Stage/S09-cleanup
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/YaST2.First-Stage b/installation-git/startup/YaST2.First-Stage
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/YaST2.Second-Stage b/installation-git/startup/YaST2.Second-Stage
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/YaST2.call b/installation-git/startup/YaST2.call
+old mode 100755
+new mode 100644
+diff --git a/installation-svn/startup/YaST2.ssh b/installation-git/startup/YaST2.ssh
+old mode 100755
+new mode 100644

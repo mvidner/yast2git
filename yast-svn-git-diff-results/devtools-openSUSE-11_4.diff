@@ -1,0 +1,129 @@
+diff --git a/devtools-svn/devtools/bin/check-textdomain b/devtools-git/devtools/bin/check-textdomain
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/checkin-stable b/devtools-git/devtools/bin/checkin-stable
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/create-new-package b/devtools-git/devtools/bin/create-new-package
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/create-spec b/devtools-git/devtools/bin/create-spec
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/gen_logic_deps_nodes b/devtools-git/devtools/bin/gen_logic_deps_nodes
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/pot-spellcheck b/devtools-git/devtools/bin/pot-spellcheck
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/showy2log b/devtools-git/devtools/bin/showy2log
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/svnall b/devtools-git/devtools/bin/svnall
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/tagversion b/devtools-git/devtools/bin/tagversion
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2autoconf b/devtools-git/devtools/bin/y2autoconf
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2automake b/devtools-git/devtools/bin/y2automake
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2compile b/devtools-git/devtools/bin/y2compile
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2makeall b/devtools-git/devtools/bin/y2makeall
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2makeall-old b/devtools-git/devtools/bin/y2makeall-old
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2makepot b/devtools-git/devtools/bin/y2makepot
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/y2tool b/devtools-git/devtools/bin/y2tool
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/devtools/bin/ycpmakedep b/devtools-git/devtools/bin/ycpmakedep
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/doxygen/ydoxygen b/devtools-git/doxygen/ydoxygen
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/misc/import.sh b/devtools-git/misc/import.sh
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/prefixbuild/epfx b/devtools-git/prefixbuild/epfx
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/prefixbuild/pfx b/devtools-git/prefixbuild/pfx
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/prefixbuild/recreate b/devtools-git/prefixbuild/recreate
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/prefixbuild/yast2-deps b/devtools-git/prefixbuild/yast2-deps
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/prefixbuild/yp b/devtools-git/prefixbuild/yp
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/scrdoc/src/scrdoc b/devtools-git/scrdoc/src/scrdoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/y2logview/y2logview.tcl b/devtools-git/y2logview/y2logview.tcl
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/yast2/check_ycp/check_ycp b/devtools-git/yast2/check_ycp/check_ycp
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/yast2/freshdoc b/devtools-git/yast2/freshdoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/yast2/make_wrapper b/devtools-git/yast2/make_wrapper
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/yast2/update_logconf b/devtools-git/yast2/update_logconf
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/yast2/ycp_puttext b/devtools-git/yast2/ycp_puttext
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ycpdoc/src/pmdoc b/devtools-git/ycpdoc/src/pmdoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ycpdoc/src/ycpdoc b/devtools-git/ycpdoc/src/ycpdoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ycpdoc/testsuite/test-html b/devtools-git/ycpdoc/testsuite/test-html
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ycpdoc/testsuite/test-ycpdoc b/devtools-git/ycpdoc/testsuite/test-ycpdoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ycpdoc/testsuite/testok-html b/devtools-git/ycpdoc/testsuite/testok-html
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/po-tools/cleanuppo.awk b/devtools-git/ydoc/po-tools/cleanuppo.awk
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/po-tools/po-stats b/devtools-git/ydoc/po-tools/po-stats
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/src/builtindoc b/devtools-git/ydoc/src/builtindoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/src/makebuiltindocs b/devtools-git/ydoc/src/makebuiltindocs
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/src/replace_entities b/devtools-git/ydoc/src/replace_entities
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/src/ydoc b/devtools-git/ydoc/src/ydoc
+old mode 100755
+new mode 100644
+diff --git a/devtools-svn/ydoc/src/ydoc2 b/devtools-git/ydoc/src/ydoc2
+old mode 100755
+new mode 100644

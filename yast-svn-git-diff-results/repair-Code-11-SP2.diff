@@ -1,0 +1,79 @@
+diff --git a/repair-svn/src/OSR.ycp b/repair-git/src/OSR.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRBoot.ycp b/repair-git/src/OSRBoot.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRExecute.ycp b/repair-git/src/OSRExecute.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRFloppy.ycp b/repair-git/src/OSRFloppy.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRFsck.ycp b/repair-git/src/OSRFsck.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRFstab.ycp b/repair-git/src/OSRFstab.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRMode.ycp b/repair-git/src/OSRMode.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRModuleLoading.ycp b/repair-git/src/OSRModuleLoading.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRPkg.ycp b/repair-git/src/OSRPkg.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRPkgUI.ycp b/repair-git/src/OSRPkgUI.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRPopup.ycp b/repair-git/src/OSRPopup.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRProgress.ycp b/repair-git/src/OSRProgress.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRPtbl.ycp b/repair-git/src/OSRPtbl.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRRepairUI.ycp b/repair-git/src/OSRRepairUI.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRStatus.ycp b/repair-git/src/OSRStatus.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRSummary.ycp b/repair-git/src/OSRSummary.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRSwap.ycp b/repair-git/src/OSRSwap.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/OSRSystem.ycp b/repair-git/src/OSRSystem.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/osr_module_bootloader.ycp b/repair-git/src/osr_module_bootloader.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/osr_module_packages.ycp b/repair-git/src/osr_module_packages.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/osr_verified_packages.ycp b/repair-git/src/osr_verified_packages.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/src/repair.ycp b/repair-git/src/repair.ycp
+old mode 100755
+new mode 100644
+diff --git a/repair-svn/testsuite/tests/OSRDetectFstab.out b/repair-git/testsuite/tests/OSRDetectFstab.out
+index e69de29..83cb87b 100644
+--- a/repair-svn/testsuite/tests/OSRDetectFstab.out
++++ b/repair-git/testsuite/tests/OSRDetectFstab.out
+@@ -0,0 +1,8 @@
++Return	true
++Return	nil
++Return	nil
++Return	["fs_check", "swap_check"]
++Dump	detect group: ["fstab_check", "fs_check", "swap_check"]
++Log	The required value "swap_partition_list" is not yet set.
++Read	.etc.mtab [$["file":"/"]]
++Return	`detectok

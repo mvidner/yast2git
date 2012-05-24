@@ -1,0 +1,3 @@
+diff --git a/ntp-client-svn/data/get_servers.pl b/ntp-client-git/data/get_servers.pl
+old mode 100755
+new mode 100644

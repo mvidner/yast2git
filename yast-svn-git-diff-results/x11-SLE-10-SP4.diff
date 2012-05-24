@@ -1,0 +1,9 @@
+diff --git a/x11-svn/scripts/update_xf86config b/x11-git/scripts/update_xf86config
+old mode 100755
+new mode 100644
+diff --git a/x11-svn/scripts/xmigrate.pl b/x11-git/scripts/xmigrate.pl
+old mode 100755
+new mode 100644
+diff --git a/x11-svn/src/x11.ycp b/x11-git/src/x11.ycp
+old mode 100755
+new mode 100644

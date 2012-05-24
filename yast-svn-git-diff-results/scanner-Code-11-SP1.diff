@@ -1,0 +1,36 @@
+diff --git a/scanner-svn/tools/activate_scanner_backend b/scanner-git/tools/activate_scanner_backend
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/autodetect_scanners b/scanner-git/tools/autodetect_scanners
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/create_scanner_database b/scanner-git/tools/create_scanner_database
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/deactivate_scanner_backend b/scanner-git/tools/deactivate_scanner_backend
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/determine_active_scanner_backends b/scanner-git/tools/determine_active_scanner_backends
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/determine_active_scanners b/scanner-git/tools/determine_active_scanners
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/determine_network_scanner_config b/scanner-git/tools/determine_network_scanner_config
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/setup_hplip_scanner_service b/scanner-git/tools/setup_hplip_scanner_service
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/setup_network_scanner_config b/scanner-git/tools/setup_network_scanner_config
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/setup_ptal_scanner_service b/scanner-git/tools/setup_ptal_scanner_service
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/test_and_set_scanner_access_permissions b/scanner-git/tools/test_and_set_scanner_access_permissions
+old mode 100755
+new mode 100644
+diff --git a/scanner-svn/tools/test_scanner_backend b/scanner-git/tools/test_scanner_backend
+old mode 100755
+new mode 100644

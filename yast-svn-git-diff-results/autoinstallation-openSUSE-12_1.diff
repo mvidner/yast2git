@@ -1,0 +1,21 @@
+diff --git a/autoinstallation-svn/POTFILES b/autoinstallation-git/POTFILES
+index e69de29..0ca1a03 100644
+--- a/autoinstallation-svn/POTFILES
++++ b/autoinstallation-git/POTFILES
+@@ -0,0 +1 @@
++src/config/autoinst_modules.conf
+diff --git a/autoinstallation-svn/agents/ag_ksimport b/autoinstallation-git/agents/ag_ksimport
+old mode 100755
+new mode 100644
+diff --git a/autoinstallation-svn/doc/bin/components.sh b/autoinstallation-git/doc/bin/components.sh
+old mode 100755
+new mode 100644
+diff --git a/autoinstallation-svn/doc/bin/findImages.sh b/autoinstallation-git/doc/bin/findImages.sh
+old mode 100755
+new mode 100644
+diff --git a/autoinstallation-svn/doc/bin/ima2imaobj.pl b/autoinstallation-git/doc/bin/ima2imaobj.pl
+old mode 100755
+new mode 100644
+diff --git a/autoinstallation-svn/scripts/autoyast b/autoinstallation-git/scripts/autoyast
+old mode 100755
+new mode 100644

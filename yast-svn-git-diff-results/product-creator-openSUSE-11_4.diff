@@ -1,0 +1,9 @@
+diff --git a/product-creator-svn/scripts/y2mkiso b/product-creator-git/scripts/y2mkiso
+old mode 100755
+new mode 100644
+diff --git a/product-creator-svn/src/data/kiwi_templates/iso/config.sh b/product-creator-git/src/data/kiwi_templates/iso/config.sh
+old mode 100755
+new mode 100644
+diff --git a/product-creator-svn/src/data/kiwi_templates/iso/root/etc/init.d/create_xconf b/product-creator-git/src/data/kiwi_templates/iso/root/etc/init.d/create_xconf
+old mode 100755
+new mode 100644

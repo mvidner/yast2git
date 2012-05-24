@@ -1,0 +1,3 @@
+diff --git a/sudo-svn/agents/ag_etc_sudoers b/sudo-git/agents/ag_etc_sudoers
+old mode 100755
+new mode 100644

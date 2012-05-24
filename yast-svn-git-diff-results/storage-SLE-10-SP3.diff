@@ -1,0 +1,6 @@
+diff --git a/storage-svn/libstorage/bindings/python/example.py b/storage-git/libstorage/bindings/python/example.py
+old mode 100755
+new mode 100644
+diff --git a/storage-svn/scripts/create_udev_cdrom_rules b/storage-git/scripts/create_udev_cdrom_rules
+old mode 100755
+new mode 100644

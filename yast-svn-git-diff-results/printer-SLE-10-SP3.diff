@@ -1,0 +1,33 @@
+diff --git a/printer-svn/agent-ppd/doc/iface.xml b/printer-git/agent-ppd/doc/iface.xml
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/agent-ppd/doc/ppdag.xml b/printer-git/agent-ppd/doc/ppdag.xml
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/agent-ppd/testsuite/tests/runtest.sh b/printer-git/agent-ppd/testsuite/tests/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/agents/ag_ppd_file_modify b/printer-git/agents/ag_ppd_file_modify
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/agents/ag_smb_queues b/printer-git/agents/ag_smb_queues
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/testsuite/run/runtest-ag.sh b/printer-git/testsuite/run/runtest-ag.sh
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/prepare_ps_testpage.pl b/printer-git/tools/prepare_ps_testpage.pl
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/process_ppd_files b/printer-git/tools/process_ppd_files
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_novell b/printer-git/tools/test_remote_novell
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_smb b/printer-git/tools/test_remote_smb
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_socket b/printer-git/tools/test_remote_socket
+old mode 100755
+new mode 100644

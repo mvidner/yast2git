@@ -1,0 +1,3 @@
+diff --git a/restore-svn/src/restore_parse_pkginfo.pl b/restore-git/src/restore_parse_pkginfo.pl
+old mode 100755
+new mode 100644

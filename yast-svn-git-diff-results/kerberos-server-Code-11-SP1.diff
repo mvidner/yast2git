@@ -1,0 +1,9 @@
+diff --git a/kerberos-server-svn/agents/ag_kadmin b/kerberos-server-git/agents/ag_kadmin
+old mode 100755
+new mode 100644
+diff --git a/kerberos-server-svn/agents/kadmin_test.pl b/kerberos-server-git/agents/kadmin_test.pl
+old mode 100755
+new mode 100644
+diff --git a/kerberos-server-svn/missing b/kerberos-server-git/missing
+old mode 100755
+new mode 100644

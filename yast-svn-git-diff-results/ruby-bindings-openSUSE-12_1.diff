@@ -1,0 +1,3 @@
+diff --git a/ruby-bindings-svn/tests/ycp/run_ycp_test.sh b/ruby-bindings-git/tests/ycp/run_ycp_test.sh
+old mode 100755
+new mode 100644

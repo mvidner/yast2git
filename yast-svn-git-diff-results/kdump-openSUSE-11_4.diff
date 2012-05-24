@@ -1,0 +1,7 @@
+diff --git a/kdump-svn/testsuite/tests/Kdump.out b/kdump-git/testsuite/tests/Kdump.out
+index e69de29..7f6101b 100644
+--- a/kdump-svn/testsuite/tests/Kdump.out
++++ b/kdump-git/testsuite/tests/Kdump.out
+@@ -0,0 +1,2 @@
++Dump	Kdump::Modified
++Return	false

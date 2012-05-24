@@ -1,0 +1,39 @@
+diff --git a/apparmor-svn/src/agents/ag_complain b/apparmor-git/src/agents/ag_complain
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_genprof b/apparmor-git/src/agents/ag_genprof
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_logparse b/apparmor-git/src/agents/ag_logparse
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_logprof b/apparmor-git/src/agents/ag_logprof
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_reports_confined b/apparmor-git/src/agents/ag_reports_confined
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_reports_ess b/apparmor-git/src/agents/ag_reports_ess
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_reports_parse b/apparmor-git/src/agents/ag_reports_parse
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_reports_sched b/apparmor-git/src/agents/ag_reports_sched
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_sd_config b/apparmor-git/src/agents/ag_sd_config
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_subdomain b/apparmor-git/src/agents/ag_subdomain
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/agents/ag_subdomain_profiles b/apparmor-git/src/agents/ag_subdomain_profiles
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/bin/reportgen.pl b/apparmor-git/src/bin/reportgen.pl
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/src/perl/Notify.pm b/apparmor-git/src/perl/Notify.pm
+old mode 100755
+new mode 100644

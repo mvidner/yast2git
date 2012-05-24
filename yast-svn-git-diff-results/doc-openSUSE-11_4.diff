@@ -1,0 +1,21 @@
+diff --git a/doc-svn/_build-www.sh b/doc-git/_build-www.sh
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/autogen/autodoc.sh b/doc-git/autogen/autodoc.sh
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/modules/modules_doc.sh b/doc-git/modules/modules_doc.sh
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/perlmodules/perl_doc.sh b/doc-git/perlmodules/perl_doc.sh
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/perlmodules/pod2xml.pl b/doc-git/perlmodules/pod2xml.pl
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/scr/scr_doc.sh b/doc-git/scr/scr_doc.sh
+old mode 100755
+new mode 100644
+diff --git a/doc-svn/tdg/build-by-books.sh b/doc-git/tdg/build-by-books.sh
+old mode 100755
+new mode 100644

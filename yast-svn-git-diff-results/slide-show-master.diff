@@ -1,0 +1,6 @@
+diff --git a/slide-show-svn/testsuite/start b/slide-show-git/testsuite/start
+old mode 100755
+new mode 100644
+diff --git a/slide-show-svn/tools/rtf-to-xml b/slide-show-git/tools/rtf-to-xml
+old mode 100755
+new mode 100644

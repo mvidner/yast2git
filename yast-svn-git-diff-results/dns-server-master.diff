@@ -1,0 +1,12 @@
+diff --git a/dns-server-svn/agents/ag_convert_named_conf b/dns-server-git/agents/ag_convert_named_conf
+old mode 100755
+new mode 100644
+diff --git a/dns-server-svn/agents/ag_dns_zone b/dns-server-git/agents/ag_dns_zone
+old mode 100755
+new mode 100644
+diff --git a/dns-server-svn/agents/ag_named_forwarders b/dns-server-git/agents/ag_named_forwarders
+old mode 100755
+new mode 100644
+diff --git a/dns-server-svn/testsuite/run/runtest-ag.sh b/dns-server-git/testsuite/run/runtest-ag.sh
+old mode 100755
+new mode 100644

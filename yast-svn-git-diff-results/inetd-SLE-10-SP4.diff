@@ -1,0 +1,139 @@
+diff --git a/inetd-svn/src/all-services.sh b/inetd-git/src/all-services.sh
+old mode 100755
+new mode 100644
+diff --git a/inetd-svn/testsuite/run/runtest-ag.sh b/inetd-git/testsuite/run/runtest-ag.sh
+old mode 100755
+new mode 100644
+diff --git a/inetd-svn/testsuite/tests.ag/i1.err b/inetd-git/testsuite/tests.ag/i1.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i1.err
++++ b/inetd-git/testsuite/tests.ag/i1.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i2.err b/inetd-git/testsuite/tests.ag/i2.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i2.err
++++ b/inetd-git/testsuite/tests.ag/i2.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i3.err b/inetd-git/testsuite/tests.ag/i3.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i3.err
++++ b/inetd-git/testsuite/tests.ag/i3.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i4.err b/inetd-git/testsuite/tests.ag/i4.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i4.err
++++ b/inetd-git/testsuite/tests.ag/i4.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i5.err b/inetd-git/testsuite/tests.ag/i5.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i5.err
++++ b/inetd-git/testsuite/tests.ag/i5.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i_add.err b/inetd-git/testsuite/tests.ag/i_add.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i_add.err
++++ b/inetd-git/testsuite/tests.ag/i_add.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i_add2.err b/inetd-git/testsuite/tests.ag/i_add2.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i_add2.err
++++ b/inetd-git/testsuite/tests.ag/i_add2.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i_add3.err b/inetd-git/testsuite/tests.ag/i_add3.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i_add3.err
++++ b/inetd-git/testsuite/tests.ag/i_add3.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/i_del.err b/inetd-git/testsuite/tests.ag/i_del.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/i_del.err
++++ b/inetd-git/testsuite/tests.ag/i_del.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x1.err b/inetd-git/testsuite/tests.ag/x1.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x1.err
++++ b/inetd-git/testsuite/tests.ag/x1.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x4.err b/inetd-git/testsuite/tests.ag/x4.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x4.err
++++ b/inetd-git/testsuite/tests.ag/x4.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x5.err b/inetd-git/testsuite/tests.ag/x5.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x5.err
++++ b/inetd-git/testsuite/tests.ag/x5.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_81.err b/inetd-git/testsuite/tests.ag/x_81.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_81.err
++++ b/inetd-git/testsuite/tests.ag/x_81.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_add.err b/inetd-git/testsuite/tests.ag/x_add.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_add.err
++++ b/inetd-git/testsuite/tests.ag/x_add.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_add2.err b/inetd-git/testsuite/tests.ag/x_add2.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_add2.err
++++ b/inetd-git/testsuite/tests.ag/x_add2.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_add3.err b/inetd-git/testsuite/tests.ag/x_add3.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_add3.err
++++ b/inetd-git/testsuite/tests.ag/x_add3.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_del.err b/inetd-git/testsuite/tests.ag/x_del.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_del.err
++++ b/inetd-git/testsuite/tests.ag/x_del.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_double.err b/inetd-git/testsuite/tests.ag/x_double.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_double.err
++++ b/inetd-git/testsuite/tests.ag/x_double.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'
+diff --git a/inetd-svn/testsuite/tests.ag/x_multi.err b/inetd-git/testsuite/tests.ag/x_multi.err
+index e69de29..1467275 100644
+--- a/inetd-svn/testsuite/tests.ag/x_multi.err
++++ b/inetd-git/testsuite/tests.ag/x_multi.err
+@@ -0,0 +1,2 @@
++[liby2] genericfrontend.cc(main):XXX Launched YaST2 component 'y2base'
++[liby2] genericfrontend.cc(main):XXX Finished YaST2 component 'y2base'

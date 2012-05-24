@@ -1,0 +1,3 @@
+diff --git a/dhcp-server-svn/agents/ag_dhcpd_conf b/dhcp-server-git/agents/ag_dhcpd_conf
+old mode 100755
+new mode 100644

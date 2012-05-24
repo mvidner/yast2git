@@ -1,0 +1,33 @@
+diff --git a/dbus-server-svn/src/services/SCR_service/test_SCR_dbus_server.rb.in b/dbus-server-git/src/services/SCR_service/test_SCR_dbus_server.rb.in
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/doc/dbus_samba_export.py b/dbus-server-git/src/services/namespace_service/doc/dbus_samba_export.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/doc/example-arch.py b/dbus-server-git/src/services/namespace_service/doc/example-arch.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/doc/example-users.py b/dbus-server-git/src/services/namespace_service/doc/example-users.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/t1 b/dbus-server-git/src/services/namespace_service/testsuite/t1
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/t2.py b/dbus-server-git/src/services/namespace_service/testsuite/t2.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/t3-unknown-method.py b/dbus-server-git/src/services/namespace_service/testsuite/t3-unknown-method.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/t4-bad-params.py b/dbus-server-git/src/services/namespace_service/testsuite/t4-bad-params.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/t5-params.py b/dbus-server-git/src/services/namespace_service/testsuite/t5-params.py
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/test_all b/dbus-server-git/src/services/namespace_service/testsuite/test_all
+old mode 100755
+new mode 100644
+diff --git a/dbus-server-svn/src/services/namespace_service/testsuite/test_server b/dbus-server-git/src/services/namespace_service/testsuite/test_server
+old mode 100755
+new mode 100644

@@ -1,0 +1,9 @@
+diff --git a/firstboot-svn/scripts/Firstboot-Stage/S05-cleanup b/firstboot-git/scripts/Firstboot-Stage/S05-cleanup
+old mode 100755
+new mode 100644
+diff --git a/firstboot-svn/scripts/doit-firstboot b/firstboot-git/scripts/doit-firstboot
+old mode 100755
+new mode 100644
+diff --git a/firstboot-svn/scripts/firstboot b/firstboot-git/scripts/firstboot
+old mode 100755
+new mode 100644

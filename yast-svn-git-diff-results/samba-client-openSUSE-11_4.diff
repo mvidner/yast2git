@@ -1,0 +1,7 @@
+diff --git a/samba-client-svn/TODO b/samba-client-git/TODO
+index e69de29..b37e480 100644
+--- a/samba-client-svn/TODO
++++ b/samba-client-git/TODO
+@@ -0,0 +1,2 @@
++docs
++nmbstatus started as soon as possible and its output should be cached

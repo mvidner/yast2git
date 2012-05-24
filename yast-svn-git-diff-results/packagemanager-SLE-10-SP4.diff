@@ -1,0 +1,943 @@
+diff --git a/packagemanager-svn/src/you/create_you_patch b/packagemanager-git/src/you/create_you_patch
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/devel/run_test_solver b/packagemanager-git/testsuite/devel/run_test_solver
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/devel.ma/ma_test b/packagemanager-git/testsuite/devel.ma/ma_test
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/002-primary-correct.test.xml.err.ref b/packagemanager-git/testsuite/devel.mir/YUMParser.test/002-primary-correct.test.xml.err.ref
+index e69de29..91a2189 100644
+--- a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/002-primary-correct.test.xml.err.ref
++++ b/packagemanager-git/testsuite/devel.mir/YUMParser.test/002-primary-correct.test.xml.err.ref
+@@ -0,0 +1,867 @@
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element authors there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element author there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element author there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element keywords there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element keyword there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element keyword there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element media there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element dirsizes there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element dirsize there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element dirsize there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element freshen there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element install_only there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 171, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element name there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element arch there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element checksum there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element summary there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element description there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element packager there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element url there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element time there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element size there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element location there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element format there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element license there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element vendor there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element group there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element buildhost there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element sourcerpm there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element header-range there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element provides there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element requires there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element entry there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element file there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 276, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element name there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element arch there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element checksum there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element summary there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element description there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element packager there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element url there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element time there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element size there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element location there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element format there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element license there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element vendor there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element group there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element buildhost there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element sourcerpm there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element header-range there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 303, column 14
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element name there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element arch there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element checksum there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element summary there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element description there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element packager there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element url there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element time there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element size there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element location there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element format there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element license there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element vendor there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element group there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element buildhost there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element sourcerpm there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element header-range there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 327, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element name there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element arch there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element checksum there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element summary there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element description there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element packager there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element url there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element time there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element size there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element location there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element format there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element license there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element vendor there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element group there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element buildhost there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element sourcerpm there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element header-range there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 351, column 22
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element name there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element arch there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element checksum there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element summary there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element description there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element packager there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element url there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element time there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element size there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element location there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element format there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element license there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element vendor there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element group there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element buildhost there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect text in element  TODO  content
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element sourcerpm there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element header-range there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 376, column 1
+diff --git a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/005-other-correct.test.xml.err.ref b/packagemanager-git/testsuite/devel.mir/YUMParser.test/005-other-correct.test.xml.err.ref
+index e69de29..b2b71ee 100644
+--- a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/005-other-correct.test.xml.err.ref
++++ b/packagemanager-git/testsuite/devel.mir/YUMParser.test/005-other-correct.test.xml.err.ref
+@@ -0,0 +1,39 @@
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element bla there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 11, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 11, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 22, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 30, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 30, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element package there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 30, column 1
++[liby2util] XMLNodeIterator.cc(errorHandler):235 libxml2 error reporting defect, got '%s' as message
++[liby2util] XMLNodeIterator.cc(errorHandler):240 XML syntax warning: Did not expect element version there
++[liby2util] XMLNodeIterator.cc(errorHandler):240 at line 30, column 1
+diff --git a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/006-patch-correct.test.xml.err.ref b/packagemanager-git/testsuite/devel.mir/YUMParser.test/006-patch-correct.test.xml.err.ref
+index e69de29..8b13789 100644
+--- a/packagemanager-svn/testsuite/devel.mir/YUMParser.test/006-patch-correct.test.xml.err.ref
++++ b/packagemanager-git/testsuite/devel.mir/YUMParser.test/006-patch-correct.test.xml.err.ref
+@@ -0,0 +1 @@
++
+diff --git a/packagemanager-svn/testsuite/devel.mir/testit.sh b/packagemanager-git/testsuite/devel.mir/testit.sh
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/genCallbacksClass b/packagemanager-git/testsuite/genCallbacksClass
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/genErrorClass b/packagemanager-git/testsuite/genErrorClass
+old mode 100755
+new mode 100644
+diff --git a/packagemanager-svn/testsuite/genPtrClass b/packagemanager-git/testsuite/genPtrClass
+old mode 100755
+new mode 100644

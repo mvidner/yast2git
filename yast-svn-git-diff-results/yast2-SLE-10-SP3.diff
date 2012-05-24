@@ -1,0 +1,12 @@
+diff --git a/yast2-svn/library/commandline/agents/ag_tty b/yast2-git/library/commandline/agents/ag_tty
+old mode 100755
+new mode 100644
+diff --git a/yast2-svn/library/runlevel/src/ag_initscripts b/yast2-git/library/runlevel/src/ag_initscripts
+old mode 100755
+new mode 100644
+diff --git a/yast2-svn/scripts/save_y2logs b/yast2-git/scripts/save_y2logs
+old mode 100755
+new mode 100644
+diff --git a/yast2-svn/scripts/yast2 b/yast2-git/scripts/yast2
+old mode 100755
+new mode 100644

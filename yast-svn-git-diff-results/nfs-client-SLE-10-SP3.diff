@@ -1,0 +1,3 @@
+diff --git a/nfs-client-svn/agents/ag_showexports b/nfs-client-git/agents/ag_showexports
+old mode 100755
+new mode 100644

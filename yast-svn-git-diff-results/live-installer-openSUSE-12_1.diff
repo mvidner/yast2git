@@ -1,0 +1,7 @@
+diff --git a/live-installer-svn/testsuite/tests/LiveInstaller.out b/live-installer-git/testsuite/tests/LiveInstaller.out
+index e69de29..cda2489 100644
+--- a/live-installer-svn/testsuite/tests/LiveInstaller.out
++++ b/live-installer-git/testsuite/tests/LiveInstaller.out
+@@ -0,0 +1,2 @@
++Dump	LiveInstaller::Modified
++Return	false

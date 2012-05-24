@@ -1,0 +1,30 @@
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_complain b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_complain
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_genprof b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_genprof
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_logparse b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_logparse
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_logprof b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_logprof
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_reports_confined b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_reports_confined
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_reports_ess b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_reports_ess
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_reports_parse b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_reports_parse
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_reports_sched b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_reports_sched
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_sd_config b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_sd_config
+old mode 100755
+new mode 100644
+diff --git a/apparmor-svn/yast2-apparmor-2.1/src/agents/ag_subdomain b/apparmor-git/yast2-apparmor-2.1/src/agents/ag_subdomain
+old mode 100755
+new mode 100644

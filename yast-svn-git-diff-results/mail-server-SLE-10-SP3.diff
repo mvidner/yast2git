@@ -1,0 +1,9 @@
+diff --git a/mail-server-svn/agents/ag_cyrus_conf b/mail-server-git/agents/ag_cyrus_conf
+old mode 100755
+new mode 100644
+diff --git a/mail-server-svn/agents/ag_mailconfig b/mail-server-git/agents/ag_mailconfig
+old mode 100755
+new mode 100644
+diff --git a/mail-server-svn/agents/ag_postfix_mastercf b/mail-server-git/agents/ag_postfix_mastercf
+old mode 100755
+new mode 100644

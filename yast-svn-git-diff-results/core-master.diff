@@ -1,0 +1,371 @@
+diff --git a/core-svn/agent-ini/testsuite/debug/runtest.sh b/core-git/agent-ini/testsuite/debug/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agent-ini/testsuite/multi/private.in.2 b/core-git/agent-ini/testsuite/multi/private.in.2
+index e69de29..9b36377 100644
+--- a/core-svn/agent-ini/testsuite/multi/private.in.2
++++ b/core-git/agent-ini/testsuite/multi/private.in.2
+@@ -0,0 +1,11 @@
++[Dialer arcor]
++Compuserve = 0
++Provider = Arcor
++[End]
++
++[Dialer mobilcom]
++Compuserve = 0
++Provider = Mobilcom
++Phone = 0101901929
++[End]
++
+diff --git a/core-svn/agent-ini/testsuite/multi/runtest.sh b/core-git/agent-ini/testsuite/multi/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agent-modules/testsuite/tests/runtest.sh b/core-git/agent-modules/testsuite/tests/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agent-process/testsuite/tests/runtest.sh b/core-git/agent-process/testsuite/tests/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agent-system/testsuite/tests/runtest.sh b/core-git/agent-system/testsuite/tests/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/ag_background b/core-git/agents-perl/ag_background
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/lib/ycp.test b/core-git/agents-perl/lib/ycp.test
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-double-status.exp b/core-git/agents-perl/testsuite/t-double-status.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-echo-sleep.exp b/core-git/agents-perl/testsuite/t-echo-sleep.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-echo.exp b/core-git/agents-perl/testsuite/t-echo.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-norun.exp b/core-git/agents-perl/testsuite/t-norun.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-srcmgr1.exp b/core-git/agents-perl/testsuite/t-srcmgr1.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/agents-perl/testsuite/t-srcmgr2.exp b/core-git/agents-perl/testsuite/t-srcmgr2.exp
+old mode 100755
+new mode 100644
+diff --git a/core-svn/base/tools/devtools/generateYCPWrappers b/core-git/base/tools/devtools/generateYCPWrappers
+old mode 100755
+new mode 100644
+diff --git a/core-svn/base/tools/ycpc/ybcdump b/core-git/base/tools/ycpc/ybcdump
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/differr b/core-git/libycp/testsuite/differr
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/diffout b/core-git/libycp/testsuite/diffout
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/mverr b/core-git/libycp/testsuite/mverr
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/mvout b/core-git/libycp/testsuite/mvout
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/runtest.sh b/core-git/libycp/testsuite/runtest.sh
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/tests/builtin/.cvsignore b/core-git/libycp/testsuite/tests/builtin/.cvsignore
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/tests/builtin/Builtin_II.err b/core-git/libycp/testsuite/tests/builtin/Builtin_II.err
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/tests/builtin/builtin_redeclared.out b/core-git/libycp/testsuite/tests/builtin/builtin_redeclared.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/builtin/builtin_redeclared.out
++++ b/core-git/libycp/testsuite/tests/builtin/builtin_redeclared.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/bytecode/Xmodules/.cvsignore b/core-git/libycp/testsuite/tests/bytecode/Xmodules/.cvsignore
+old mode 100755
+new mode 100644
+diff --git a/core-svn/libycp/testsuite/tests/errors/BadAssignment.out b/core-git/libycp/testsuite/tests/errors/BadAssignment.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/errors/BadAssignment.out
++++ b/core-git/libycp/testsuite/tests/errors/BadAssignment.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/errors/DuplParam.out b/core-git/libycp/testsuite/tests/errors/DuplParam.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/errors/DuplParam.out
++++ b/core-git/libycp/testsuite/tests/errors/DuplParam.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/expressions/Bracket-typeerror.out b/core-git/libycp/testsuite/tests/expressions/Bracket-typeerror.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/expressions/Bracket-typeerror.out
++++ b/core-git/libycp/testsuite/tests/expressions/Bracket-typeerror.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/includes/include.out b/core-git/libycp/testsuite/tests/includes/include.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/includes/include.out
++++ b/core-git/libycp/testsuite/tests/includes/include.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/BadModule.out b/core-git/libycp/testsuite/tests/modules/BadModule.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/BadModule.out
++++ b/core-git/libycp/testsuite/tests/modules/BadModule.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/ImpSelf.out b/core-git/libycp/testsuite/tests/modules/ImpSelf.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/ImpSelf.out
++++ b/core-git/libycp/testsuite/tests/modules/ImpSelf.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/emptyModule.out b/core-git/libycp/testsuite/tests/modules/emptyModule.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/emptyModule.out
++++ b/core-git/libycp/testsuite/tests/modules/emptyModule.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/nameofmoduleconst.out b/core-git/libycp/testsuite/tests/modules/nameofmoduleconst.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/nameofmoduleconst.out
++++ b/core-git/libycp/testsuite/tests/modules/nameofmoduleconst.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/y-double_module.out b/core-git/libycp/testsuite/tests/modules/y-double_module.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/y-double_module.out
++++ b/core-git/libycp/testsuite/tests/modules/y-double_module.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/modules/y-impself.out b/core-git/libycp/testsuite/tests/modules/y-impself.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/modules/y-impself.out
++++ b/core-git/libycp/testsuite/tests/modules/y-impself.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Define1.out b/core-git/libycp/testsuite/tests/scope/Define1.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Define1.out
++++ b/core-git/libycp/testsuite/tests/scope/Define1.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols.out b/core-git/libycp/testsuite/tests/scope/GlobalSymbols.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols.out
++++ b/core-git/libycp/testsuite/tests/scope/GlobalSymbols.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols2.out b/core-git/libycp/testsuite/tests/scope/GlobalSymbols2.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols2.out
++++ b/core-git/libycp/testsuite/tests/scope/GlobalSymbols2.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols3.out b/core-git/libycp/testsuite/tests/scope/GlobalSymbols3.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/GlobalSymbols3.out
++++ b/core-git/libycp/testsuite/tests/scope/GlobalSymbols3.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope2.out b/core-git/libycp/testsuite/tests/scope/Scope2.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope2.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope2.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope4.out b/core-git/libycp/testsuite/tests/scope/Scope4.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope4.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope4.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope5.out b/core-git/libycp/testsuite/tests/scope/Scope5.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope5.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope5.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope6.out b/core-git/libycp/testsuite/tests/scope/Scope6.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope6.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope6.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope7.out b/core-git/libycp/testsuite/tests/scope/Scope7.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope7.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope7.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/Scope8.out b/core-git/libycp/testsuite/tests/scope/Scope8.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/Scope8.out
++++ b/core-git/libycp/testsuite/tests/scope/Scope8.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/ScopeBad.out b/core-git/libycp/testsuite/tests/scope/ScopeBad.out
+index e69de29..d6c02dc 100644
+--- a/core-svn/libycp/testsuite/tests/scope/ScopeBad.out
++++ b/core-git/libycp/testsuite/tests/scope/ScopeBad.out
+@@ -0,0 +1,2 @@
++(nil)
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/scope/paramcheck.out b/core-git/libycp/testsuite/tests/scope/paramcheck.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/scope/paramcheck.out
++++ b/core-git/libycp/testsuite/tests/scope/paramcheck.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/statements/Deep_Quote.out b/core-git/libycp/testsuite/tests/statements/Deep_Quote.out
+index e69de29..8569901 100644
+--- a/core-svn/libycp/testsuite/tests/statements/Deep_Quote.out
++++ b/core-git/libycp/testsuite/tests/statements/Deep_Quote.out
+@@ -0,0 +1,4 @@
++(nil)
++((8 + 5))
++(`Time)
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/statements/empty_body2.out b/core-git/libycp/testsuite/tests/statements/empty_body2.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/statements/empty_body2.out
++++ b/core-git/libycp/testsuite/tests/statements/empty_body2.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/statements/loop.out b/core-git/libycp/testsuite/tests/statements/loop.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/statements/loop.out
++++ b/core-git/libycp/testsuite/tests/statements/loop.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/Bracket-symbol.out b/core-git/libycp/testsuite/tests/types/Bracket-symbol.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/Bracket-symbol.out
++++ b/core-git/libycp/testsuite/tests/types/Bracket-symbol.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/Events.out b/core-git/libycp/testsuite/tests/types/Events.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/Events.out
++++ b/core-git/libycp/testsuite/tests/types/Events.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/bug38375.out b/core-git/libycp/testsuite/tests/types/bug38375.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/bug38375.out
++++ b/core-git/libycp/testsuite/tests/types/bug38375.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/const.out b/core-git/libycp/testsuite/tests/types/const.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/const.out
++++ b/core-git/libycp/testsuite/tests/types/const.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/const1.out b/core-git/libycp/testsuite/tests/types/const1.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/const1.out
++++ b/core-git/libycp/testsuite/tests/types/const1.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/const_list1.out b/core-git/libycp/testsuite/tests/types/const_list1.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/const_list1.out
++++ b/core-git/libycp/testsuite/tests/types/const_list1.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/const_reference.out b/core-git/libycp/testsuite/tests/types/const_reference.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/const_reference.out
++++ b/core-git/libycp/testsuite/tests/types/const_reference.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/crash.out b/core-git/libycp/testsuite/tests/types/crash.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/crash.out
++++ b/core-git/libycp/testsuite/tests/types/crash.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/foreach.out b/core-git/libycp/testsuite/tests/types/foreach.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/foreach.out
++++ b/core-git/libycp/testsuite/tests/types/foreach.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/functionassign.out b/core-git/libycp/testsuite/tests/types/functionassign.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/functionassign.out
++++ b/core-git/libycp/testsuite/tests/types/functionassign.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/functionpointer3.out b/core-git/libycp/testsuite/tests/types/functionpointer3.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/functionpointer3.out
++++ b/core-git/libycp/testsuite/tests/types/functionpointer3.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/listmapcrash.out b/core-git/libycp/testsuite/tests/types/listmapcrash.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/listmapcrash.out
++++ b/core-git/libycp/testsuite/tests/types/listmapcrash.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/no-return.out b/core-git/libycp/testsuite/tests/types/no-return.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/no-return.out
++++ b/core-git/libycp/testsuite/tests/types/no-return.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/not_a_function.out b/core-git/libycp/testsuite/tests/types/not_a_function.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/not_a_function.out
++++ b/core-git/libycp/testsuite/tests/types/not_a_function.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/prototype2.out b/core-git/libycp/testsuite/tests/types/prototype2.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/prototype2.out
++++ b/core-git/libycp/testsuite/tests/types/prototype2.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/prototype3.out b/core-git/libycp/testsuite/tests/types/prototype3.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/prototype3.out
++++ b/core-git/libycp/testsuite/tests/types/prototype3.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/prototype4.out b/core-git/libycp/testsuite/tests/types/prototype4.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/prototype4.out
++++ b/core-git/libycp/testsuite/tests/types/prototype4.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/prototype6.out b/core-git/libycp/testsuite/tests/types/prototype6.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/prototype6.out
++++ b/core-git/libycp/testsuite/tests/types/prototype6.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/reference1.out b/core-git/libycp/testsuite/tests/types/reference1.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/reference1.out
++++ b/core-git/libycp/testsuite/tests/types/reference1.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/returntype.out b/core-git/libycp/testsuite/tests/types/returntype.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/returntype.out
++++ b/core-git/libycp/testsuite/tests/types/returntype.out
+@@ -0,0 +1 @@
++(nil)
+diff --git a/core-svn/libycp/testsuite/tests/types/typecodes.out b/core-git/libycp/testsuite/tests/types/typecodes.out
+index e69de29..35eafff 100644
+--- a/core-svn/libycp/testsuite/tests/types/typecodes.out
++++ b/core-git/libycp/testsuite/tests/types/typecodes.out
+@@ -0,0 +1 @@
++(nil)

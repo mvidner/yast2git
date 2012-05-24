@@ -1,0 +1,9 @@
+diff --git a/ipsec-svn/agents/ag_freeswancerts b/ipsec-git/agents/ag_freeswancerts
+old mode 100755
+new mode 100644
+diff --git a/ipsec-svn/agents/ag_ipsec_conf b/ipsec-git/agents/ag_ipsec_conf
+old mode 100755
+new mode 100644
+diff --git a/ipsec-svn/src/IPsecConfig.pm b/ipsec-git/src/IPsecConfig.pm
+old mode 100755
+new mode 100644

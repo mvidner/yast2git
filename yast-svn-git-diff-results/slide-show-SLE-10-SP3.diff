@@ -1,0 +1,706 @@
+diff --git a/slide-show-svn/SuSELinux/txt/bg/12_business.rtf b/slide-show-git/SuSELinux/txt/bg/12_business.rtf
+index e69de29..7d4329a 100644
+--- a/slide-show-svn/SuSELinux/txt/bg/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/bg/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software for the Open Enterprise</h2>
++
++  <p>Besides SUSE Linux, the community distribution that you are installing right now, Novell delivers Linux operating systems specifically designed and supported for business deployments. SUSE Linux Enterprise, is the platform for the open enterprise. Only SUSE Linux Enterprise 10 offers built-in application security, virtualization, and integrated systems management across the full range of hardware architectures. With SUSE Linux Enterprise 10, organizations can better address the complexities of increasing competition, spiraling costs, growing security threats, and demanding customers.</p>
++ 
++  <p>The SUSE Linux Enterprise platform includes both enterprise server and enterprise desktop components. Our enterprise products are delivered with a seven year maintenance guarantee, optional support programs, and a unique Linux indemnification program.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/bg/13_register.rtf b/slide-show-git/SuSELinux/txt/bg/13_register.rtf
+index e69de29..35908d0 100644
+--- a/slide-show-svn/SuSELinux/txt/bg/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/bg/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Не забравяйте да регистрирате Вашия софтуер</h2>
++  <p>След като завършите процеса на инсталация (след не много време), ще имате възможност да регистрирате този софтуер в Novell. Това отнема само няколко секунди и си заслужава. Ако сте регистриран ще получавате ранно оповестяване на важни кръпки на софтуера и ще бъдете добавен към нашия списък, в който публикуваме новите функции и нови издания на SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/cs/12_business.rtf b/slide-show-git/SuSELinux/txt/cs/12_business.rtf
+index e69de29..0b8a58a 100644
+--- a/slide-show-svn/SuSELinux/txt/cs/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/cs/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Programy pro otevřené podnikání</h2>
++
++  <p>Mimo SUSE Linuxu, komunitní distribuce, kterou nyní instalujete, Novell poskytuje také operační systémy na míru navržené pro podnikovou sféru. SUSE Linux Enterprise je platforma pro svobodné podnikání. Pouze SUSE Linux Enterprise 10 obsahuje aplikaci pro bezpečnostní nastavení, virtualizaci a systémovou integraci všech hardwarových architektur. Právě SUSE Linux Enterprise 10 je tou správnou volbou, která zvýší vaše šance ve světě rostoucí konkurence, nákladů a náročnosti zákazníků.</p>
++ 
++  <p>Platforma SUSE Linux Enterprise zahrnuje serverové i desktopové řešení. Podniková řešení jsou dodávána se sedmiletou garancí údržby, rozšiřujícími programy podpory a jedinečným programem linuxové právní ochrany.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/cs/13_register.rtf b/slide-show-git/SuSELinux/txt/cs/13_register.rtf
+index e69de29..da3d149 100644
+--- a/slide-show-svn/SuSELinux/txt/cs/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/cs/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Nezapomeňte se registrovat</h2>
++  <p>Po dokončení instalace (nebojte, už to nebude dlouho trvat), budete mít možnost si svou verzi zaregistrovat u společnosti Novell. Zabere vám to jen několik vteřin a určitě se to vyplatí. Po registraci totiž budete informováni o důležitých updatech a zařadíte se do seznamu možných betatesterů nových funkcí a nových verzí SUSE Linuxu.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/de/12_business.rtf b/slide-show-git/SuSELinux/txt/de/12_business.rtf
+index e69de29..91780fa 100644
+--- a/slide-show-svn/SuSELinux/txt/de/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/de/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software für das "offene" Unternehmen</h2>
++
++  <p>Neben SUSE Linux, der Community-Distribution, die Sie gerade installieren, bietet Novell auch Linux-Betriebssysteme an, die speziell für die Bereitstellung im Geschäftsbereich entwickelt und unterstützt werden. SUSE Linux Enterprise ist die Plattform für das "offene" Unternehmen. Nur SUSE Linux Enterprise 10 bietet integrierte Anwendungssicherheit, Visualisierung und integrierte Systemverwaltung für die gesamte Bandbreite an Hardware-Architekturen. Mit SUSE Linux Enterprise 10 können Unternehmen den komplexen Herausforderungen durch verstärkten Wettbewerb, steigende Kosten, wachsende Sicherheitsbedrohungen und anspruchsvolle Kunden besser gerecht werden.</p>
++ 
++  <p>Die Plattform SUSE Linux Enterprise enthält sowohl Enterprise Server- als auch Enterprise Desktop-Komponenten. Für unsere Produkte für Unternehmen übernehmen wir eine Wartungsgarantie von sieben Jahren. Darüber hinaus stehen optionale Supportprogramme und ein spezielles Programm für die gewerblichen Schutzrechte für Linux zur Verfügung.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/de/13_register.rtf b/slide-show-git/SuSELinux/txt/de/13_register.rtf
+index e69de29..b2c7b07 100644
+--- a/slide-show-svn/SuSELinux/txt/de/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/de/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Vergessen Sie nicht, Ihre Software zu registrieren</h2>
++  <p>Wenn Sie den Installationsvorgang abgeschlossen haben (es dauert nicht mehr lange), haben Sie die Möglichkeit, die Software bei Novell zu registrieren. Der Vorgang nimmt nur wenige Sekunden in Anspruch und lohnt sich in jedem Fall. Wenn Sie registriert sind, erhalten Sie frühzeitig Informationen zu wichtigen Software-Aktualisierungen und werden in die Liste der potenziellen Beta-Tester für neue Funktionen und Versionen von SUSE Linux aufgenommen.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/en/12_business.rtf b/slide-show-git/SuSELinux/txt/en/12_business.rtf
+index e69de29..7d4329a 100644
+--- a/slide-show-svn/SuSELinux/txt/en/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/en/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software for the Open Enterprise</h2>
++
++  <p>Besides SUSE Linux, the community distribution that you are installing right now, Novell delivers Linux operating systems specifically designed and supported for business deployments. SUSE Linux Enterprise, is the platform for the open enterprise. Only SUSE Linux Enterprise 10 offers built-in application security, virtualization, and integrated systems management across the full range of hardware architectures. With SUSE Linux Enterprise 10, organizations can better address the complexities of increasing competition, spiraling costs, growing security threats, and demanding customers.</p>
++ 
++  <p>The SUSE Linux Enterprise platform includes both enterprise server and enterprise desktop components. Our enterprise products are delivered with a seven year maintenance guarantee, optional support programs, and a unique Linux indemnification program.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/en/13_register.rtf b/slide-show-git/SuSELinux/txt/en/13_register.rtf
+index e69de29..4669a5b 100644
+--- a/slide-show-svn/SuSELinux/txt/en/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/en/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Don't Forget to Register Your Software</h2>
++  <p>When you complete the installation process (it won't be long now), you'll have a chance to register this software at Novell. It only takes few seconds and it's worth it. When you're registered, you'll receive early notification of important software updates and you'll be on our list of potential beta sites for new features and new releases of SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/es/12_business.rtf b/slide-show-git/SuSELinux/txt/es/12_business.rtf
+index e69de29..1f0899f 100644
+--- a/slide-show-svn/SuSELinux/txt/es/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/es/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software para la empresa abierta</h2>
++
++  <p>Además de SUSE Linux (la distribución comunitaria que está instalando), Novell proporciona sistemas operativos Linux especialmente diseñados para la compatibilidad especial con aplicaciones comerciales de empresa. SUSE Linux Enterprise es la plataforma idónea para las empresas abiertas. Sólo SUSE Linux Enterprise 10 ofrece funciones integradas de seguridad de aplicaciones, virtualización y gestión integrada de sistemas para toda la gama existente de arquitecturas de hardware. SUSE Linux Enterprise 10 permite a las empresas gestionar de forma más eficaz la complejidad creciente que suponen la competencia, los gastos en espiral, las cada vez más numerosas amenazas de seguridad y los clientes más exigentes.</p>
++ 
++  <p>La plataforma SUSE Linux Enterprise incluye componentes específicos para empresas (componentes de servidor y de escritorio). Nuestros productos para empresas se proporcionan con una garantía de mantenimiento de siete años, un programa de asistencia opcional y un programa de seguro adicional exclusivo para Linux.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/es/13_register.rtf b/slide-show-git/SuSELinux/txt/es/13_register.rtf
+index e69de29..390ebbd 100644
+--- a/slide-show-svn/SuSELinux/txt/es/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/es/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>No olvide registrar el software</h2>
++  <p>Cuando haya terminado el proceso de instalación (dentro de unos instantes), tendrá la posibilidad de registrar el software con Novell. Sólo tardará unos segundos y merece la pena. Si está registrado, recibirá notificaciones al instante sobre las actualizaciones importantes del software y estará en nuestra lista de sitios beta potenciales para probar nuevas funciones y versiones de SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/fi/12_business.rtf b/slide-show-git/SuSELinux/txt/fi/12_business.rtf
+index e69de29..4f94fc0 100644
+--- a/slide-show-svn/SuSELinux/txt/fi/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/fi/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Ohjelmistoja yrityksille</h2>
++
++  <p>Tämän yhteisövetoisen SUSE Linuxin lisäksi Novell tuo käyttöösi erityisesti yrityskäyttöön suunnitellut kokonaisvaltaiset Linux-ratkaisut. SUSE Linux Enterprise 10 on yrityksille tarkoitettu Linux-alusta, joka ainoana tarjoaa sisäänrakennetun tietoturvan ohjelmistoille, virtualisoinnin ja sulautetun järjestelmänhallinnan eri laitteistoarkkitehtuurien välillä. SUSE Linux Enterprisella yritykset pärjäävät paremmin kovassa kilpailussa ja voivat hallita tehokkaammin tietoturvaansa ja budjettiaan, sekä vastata paremmin asiakkaidensa vaatimuksia.</p>
++ 
++  <p>SUSE Linux Enterprise -tuoteperhe sisältää yrityksille sekä palvelin- että työpöytäratkaisun. Yritystuotteissamme on kattava seitsemän vuoden ylläpitotakuu, valinnaiset tukiohjelmat sekä ainutlaatuinen Linuxin hyvitysohjelma.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/fi/13_register.rtf b/slide-show-git/SuSELinux/txt/fi/13_register.rtf
+index e69de29..59a4c76 100644
+--- a/slide-show-svn/SuSELinux/txt/fi/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/fi/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Älä unohda rekisteröityä!</h2>
++  <p>Saatuasi asennuksen pian valmiiksi sinulle tarjotaan mahdollisuutta rekisteröidä tämä ohjelmisto Novellin sivuilla. Rekisteröityminen vie vain hetken ja on taatusti sen arvoinen. Rekisteröidyttyäsi saat muistutuksia tärkeistä ohjelmistopäivityksistä ja saat aina tiedon tulevista uusista sovelluksista ja julkaisuista.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/fr/12_business.rtf b/slide-show-git/SuSELinux/txt/fr/12_business.rtf
+index e69de29..35f4e5e 100644
+--- a/slide-show-svn/SuSELinux/txt/fr/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/fr/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Des logiciels pour l'entreprise ouverte</h2>
++
++  <p>Outre SUSE Linux, la distribution communautaire que vous installez en ce moment, Novell propose des systèmes d'exploitation Linux spécialement conçus et adaptés aux entreprises. SUSE Linux Enterprise est la plate-forme destinée à l'entreprise ouverte. Seul SUSE Linux Enterprise 10 propose une sécurité intégrée pour les applications, la virtualisation et la gestion intégrée des systèmes pour toute la gamme des architectures matérielles. Grâce à SUSE Linux Enterprise 10, les entreprises peuvent mieux répondre à la complexité liée à l'accroissement de la compétition, aux coûts qui augmentent, à la hausse des menaces de sécurité et aux clients de plus en plus exigeants.</p>
++ 
++  <p>La plate-forme SUSE Linux Enterprise inclue des composants de serveur d'entreprise et de bureau d'entreprise. Nos produits destinés aux entreprises sont accompagnés d'une garantie de maintenance de sept ans, de programmes d'assistance en option et d'un programme d'indemnisation Linux unique.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/fr/13_register.rtf b/slide-show-git/SuSELinux/txt/fr/13_register.rtf
+index e69de29..a6f83fc 100644
+--- a/slide-show-svn/SuSELinux/txt/fr/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/fr/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>N'oubliez pas d'enregistrer vos logiciels</h2>
++  <p>Une fois le processus d'installation terminé (cela ne prend que peu de temps), vous serez invité à enregistrer ces logiciels auprès de Novell. Cela ne prend que quelques secondes et en vaut la peine. Une fois enregistré, vous recevrez régulièrement des notifications des mises à jour logicielles importantes et figurerez sur notre liste de sites bêta potentiels pour de nouvelles fonctionnalités et de nouvelles versions de SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/hu/12_business.rtf b/slide-show-git/SuSELinux/txt/hu/12_business.rtf
+index e69de29..8967d34 100644
+--- a/slide-show-svn/SuSELinux/txt/hu/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/hu/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Szoftver a nyílt vállalat számára</h2>
++
++  <p>A SUSE Linux közösségi kiadása mellett (amelyet éppen most telepít), a Novell szállít kifejezetten üzleti környezetekhez szánt és támogatott Linux operációs rendszereket is. A SUSE Linux Enterprise a nyílt vállalatok számára készült platform. Csak a SUSE Linux Enterprise 10 kínál beépített alkalmazásszintű biztonságot, virtualizációt és integrált rendszerfelügyeletet a hardverarchitektúrák teljes körén. A SUSE Linux Enterprise 10 használatával jobban kézben lehet tartani az egyre növekvő versennyel kapcsolatos bonyolultságot, a gyorsan növekvő költségeket, az egyre nagyobb biztonsági fenyegetéseket, valamint a vásárlók igényeit.</p>
++ 
++  <p>A SUSE Enterprise Linux terméksor része mind a vállalati kiszolgáló, mind a vállalati asztali környezet. Vállalati termékeink hétéves karbantartási garanciával érkeznek, igény szerint támogatási programok vásárolhatók hozzá, valamint egyedi módon, egy linuxos kártalanítási programot is kínálunk.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/hu/13_register.rtf b/slide-show-git/SuSELinux/txt/hu/13_register.rtf
+index e69de29..66f2857 100644
+--- a/slide-show-svn/SuSELinux/txt/hu/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/hu/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Ne feledje el regisztrálni szoftverét!</h2>
++  <p>A telepítés befejeztével (most már tényleg csak egy kis idő!) regisztrálhatja a szoftvert a Novellnél. Néhány másodpercről van csupán szó, és higgye el, megéri. Regisztráció után értesítést kap a fontos szoftver- frissítésekről, valamint rákerülhet a SUSE LINUX Professional új funkcióit és kiadásait kipróbáló potenciális béta-tesztelok listájára.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/it/12_business.rtf b/slide-show-git/SuSELinux/txt/it/12_business.rtf
+index e69de29..bc94f92 100644
+--- a/slide-show-svn/SuSELinux/txt/it/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/it/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software per aziende Open Source</h2>
++
++  <p>Oltre alla distribuzione SUSE Linux in corso di installazione sul computer in uso, Novell fornisce sistemi operativi Linux creati e supportati appositamente per le distribuzioni aziendali. SUSE Linux Enterprise è la piattaforma per le imprese open source. Solo SUSE Linux Enterprise 10 offre funzioni, quali protezione delle applicazioni, virtualizzazione e gestione dei sistemi integrati, compatibili con tutte le architetture hardware. Con SUSE Linux Enterprise 10 le organizzazioni possono affrontare meglio i problemi derivanti dall'aumento della concorrenza, dall'incremento delle spese, dalle sempre più numerose minacce alla sicurezza e dalle esigenze dei clienti.</p>
++ 
++  <p>La piattaforma SUSE Linux Enterprise include componenti sia desktop che server per aziende. I prodotti enterprise vengono consegnati con sette anni di garanzia di manutenzione, con programmi di assistenza opzionali e con un esclusivo programma di indennizzo Linux.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/it/13_register.rtf b/slide-show-git/SuSELinux/txt/it/13_register.rtf
+index e69de29..e8cb681 100644
+--- a/slide-show-svn/SuSELinux/txt/it/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/it/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Registrazione del programma</h2>
++  <p>Al termine del processo di installazione, abbastanza breve, viene chiesto se si desidera registrare il programma presso Novell. Si consiglia di dedicare alcuni secondi alla registrazione. Dopo essersi registrati, verrà inviata una notifica sugli aggiornamenti importanti e si verrà inclusi nell'elenco dei potenziali siti beta relativi alle nuove funzioni e release di SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/ja/12_business.rtf b/slide-show-git/SuSELinux/txt/ja/12_business.rtf
+index e69de29..90b060f 100644
+--- a/slide-show-svn/SuSELinux/txt/ja/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/ja/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>オープンエンタープライズ用ソフトウェア</h2>
++
++  <p>Novellでは、現在インストールしているcommunity distribution であるSUSE Linuxのほかにも、ビジネス展開用に特別に設計され、サポートされているLinuxオペレーティングシステムを提供しています。 SUSE Linux Enterpriseは、オープンエンタープライズ用のプラットフォームです。 SUSE Linux Enterprise 10のみが、幅広いハードウェアアーキテクチャに対して、組み込みのアプリケーションセキュリティ、視覚化、および統合されたシステム管理を提供します。 SUSE Linux Enterprise 10を使用すると、組織は競合の激化、コストの増加、セキュリティ上の脅威の増加、顧客の要望の増大といった複雑な問題に、より効果的に対処することができます。</p>
++ 
++  <p>SUSE Linux Enterpriseプラットフォームには、エンタープライズサーバとエンタープライズデスクトップコンポーネントの両方が含まれています。 弊社のエンタープライズ製品は、7年間の保守保証、オプションサポートプログラム、および固有のLinux賠償プログラムを提供します。</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/ja/13_register.rtf b/slide-show-git/SuSELinux/txt/ja/13_register.rtf
+index e69de29..3c664f3 100644
+--- a/slide-show-svn/SuSELinux/txt/ja/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/ja/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>ソフトウェアの登録は忘れずに</h2>
++  <p>インストールのプロセスを完了したら(時間はかからないはずです)、Novellにソフトウェアを登録するチャンスがあります。 数秒しかかかりませんが、その価値は十分にあります。 登録を完了したら、重要なソフトウェアのアップデートについて早めに通知を受け取り、SUSE Linuxの新しい機能と新しいリリースのベータサイトの予定のリストが示されます。</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/km/12_business.rtf b/slide-show-git/SuSELinux/txt/km/12_business.rtf
+index e69de29..6f1dc4e 100644
+--- a/slide-show-svn/SuSELinux/txt/km/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/km/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>ផ្នែក​ទន់​សម្រាប់​សហគ្រាស​ចំហ</h2>
++
++  <p>ក្រៅ​ពី​ស៊ូស៊ីលីនុច ដែល​ជា​កញ្ចប់ចែកចាយ​នៅ​ក្នុង​សហគមន៍ ដែល​លោក​អ្នក​កំពុង​តែ​ដំឡើង​នេះ, ណូវែល​ក៏​ផ្ដល់ជូន​ផង​ដែរ​នូវ​ប្រព័ន្ធ​ប្រតិបត្តិការ​លីនុច ដែល​ត្រូវ​បាន​រចនា​យ៉ាង​ពិសេស​សម្រាប់​ក្រុមហ៊ុន​អាជីវកម្ម ។ ស៊ូស៊ីលីនុចសហគ្រាស គឺ​ជា​វេទិកា​សម្រាប់​សហគ្រាស​នានា ។ មាន​តែ​ស៊ូស៊ីលីនុចសហគ្រាស ១០ តែ​មួយ​គត់​ដែល​ផ្ដល់​នូវ​សុវត្ថិភាព​ភ្ជាប់​មក​ជាមួយ​កម្មវិធី និង ការ​គ្រប់គ្រង​ប្រព័ន្ធ​ដែល​រួមបញ្ចូល​គ្នា​តែ​មួយ ។ ជាមួយ​នឹង​ស៊ូស៊ីលីនុច​សហគ្រាស ១០, ក្រុមហ៊ុន​របស់​អ្នក​អាច​បង្កើន​គុណភាព​ការ​ប្រកួតប្រជែង អាច​កាត់​បន្ថយ​ការ​ចំណាយ​ផ្សេងៗ អាច​ចៀសវាង​គ្រោះ​គំរាម​កំហែង​បញ្ហា​សុវត្ថិភាព និង អាច​បំពេញ​សេចក្ដី​ត្រូវការ​របស់​អតិថិជន​យ៉ាង​គាប់​ចិត្ត​ទៀត​ផង ។</p>
++ 
++  <p>វេទិកា​ស៊ូស៊ីលីនុចសហគ្រាស បាន​រួមបញ្ចូល​នូវ​សមាសភាគ​ម៉ាស៊ីន​បម្រើ និង ផ្ទៃតុ​សម្រាប់​សហគ្រាស ។ ផលិតផល​របស់​យើង ត្រូវ​បាន​ផ្ដល់​ជូន​ព្រម​ជាមួយ​នឹង​ការ​ធានា​ជួសជុល​រយៈពេល ៧ ឆ្នាំ, កម្មវិធី​ផ្ដល់​ជូន​ជា​ច្រើន​ទៀត និង កម្មវិធី​សង​ថ្លៃ​ការ​ខូចខាត​របស់​លីនុច​ទៀត​ផង ។</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/km/13_register.rtf b/slide-show-git/SuSELinux/txt/km/13_register.rtf
+index e69de29..68c0577 100644
+--- a/slide-show-svn/SuSELinux/txt/km/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/km/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>កុំ​ភ្លេច​ចុះឈ្មោះ​ផ្នែក​ទន់​របស់​អ្នក</h2>
++  <p>នៅ​ពេល​អ្នក​បញ្ចប់​ដំណើរការ​ដំឡើង (វា​មិន​ជា​យូរ​ប៉ុន្មាន​ទៀត​ឡើយ) អ្នក​នឹង​មាន​ឱកាស​ចុះឈ្មោះ​ផ្នែក​ទន់​នេះ​នៅ​ឯ​ណូវែល ។ វា​ត្រូវការ​រយៈពេល​តែ​ប៉ុន្មាន​វិនាទី​ប៉ុណ្ណោះ ហើយ​វា​នឹង​មាន​តម្លៃ​ខ្លាំង​ណាស់ ។ នៅ​ពេល​អ្នក​បាន​ចុះឈ្មោះ អ្នក​នឹង​ទទួល​បាន​នូវ​ការ​ជូនដំណឹង​ជា​មុន​អំពី​ការ​ធ្វើ​ឲ្យ​ផ្នែក​ទន់​ទាន់សម័យ ហើយ​អ្នក​នឹង​ស្ថិត​នៅ​ក្នុង​បញ្ជី​សំខាន់​មួយ​របស់​ពួក​យើង ដែល​អ្នក​អាច​ទទួលបាន​ព័ត៌មាន​អំពី​លក្ខណៈ​ពិសេស​ថ្មីៗ និង ការចេញផ្សាយ​ថ្មីៗ​របស់​ស៊ូស៊ីលីនុច ។</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/nb/12_business.rtf b/slide-show-git/SuSELinux/txt/nb/12_business.rtf
+index e69de29..cfc4c92 100644
+--- a/slide-show-svn/SuSELinux/txt/nb/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/nb/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Programvare for bedrifter med visjoner</h2>
++
++  <p>I tillegg til SUSE Linux, samarbeidsprosjektet du installerer akkurat nå, leverer Novell Linux-operativsystemer som er spesialutformet for bedrifter, både med hensyn til innhold og brukerstøtte. SUSE Linux Enterprise er den ideelle plattformen for bedrifter med visjoner. Bare SUSE Linux Enterprise 10 har innebygd sikkerhet på programnivå, virtualiseringsløsninger og integrert systemadministrasjon som dekker hele spekteret av maskinvarekonfigurasjoner. Med SUSE Linux Enterprise 10 er organisasjonen god rustet i et miljø med økende konkurranse, stigende kostnader, økende sikkerhetsrisikoer og krevende kunder.</p>
++ 
++  <p>SUSE LINUX Enterprise-plattformen inneholder bedriftstilpassede server- og skrivebordsprodukter. Våre bedriftsprodukter leveres med syv års vedlikeholdsgaranti, tilleggsavtaler for brukerstøtte og en unik ansvarsfrihetsavtale i forbindelse med Linux-teknologi.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/nb/13_register.rtf b/slide-show-git/SuSELinux/txt/nb/13_register.rtf
+index e69de29..7eb566b 100644
+--- a/slide-show-svn/SuSELinux/txt/nb/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/nb/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Ikke glem å registrere programvaren</h2>
++  <p>Når installasjonen er fullført (du er snart i mål), kan du registrere programvaren hos Novell. Det tar bare noen sekunder, og er verdt bryet. Når du er registrert, vil du bli varslet om viktige programvareoppgraderinger og bli oppført på listen over mulige betatestere av nye funksjoner i SUSE Linux og nye versjoner.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/nl/12_business.rtf b/slide-show-git/SuSELinux/txt/nl/12_business.rtf
+index e69de29..09b4df2 100644
+--- a/slide-show-svn/SuSELinux/txt/nl/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/nl/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software voor de Open Enterprise</h2>
++
++  <p>Naast SUSE Linux, de distributie die u op dit moment installeert, biedt Novell Linuxbesturingssystemen die specifiek voor het bedrijfsleven zijn ontworpen en ondersteund. SUSE Linux Enterprise is het platform voor de open enterprise. Alleen SUSE Linux Enterprise 10 biedt ingebouwde programmabeveiligin, virtualisatie en geïntegreerd systeembeheer over een breed scala hardware-architecturen. Met SUSE Linux Enterprise 10 kunnen organisaties beter omgaan met de complexiteit van toenemende concurrentie, kostenspiralen, groeiende beveiligingsproblemen en veeleisende klanten.</p>
++ 
++  <p>De Novell Enterprise Linux-productlijn bevat zowel enterprise server- als enterprise desktop-componenten. Onze enterprise-producten worden geleverd met 7 jaar onderhoudsgarantie, optionele ondersteuningsprogramma's en een uniek Linux-vrijwaringsprogramma.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/nl/13_register.rtf b/slide-show-git/SuSELinux/txt/nl/13_register.rtf
+index e69de29..d4cfdd1 100644
+--- a/slide-show-svn/SuSELinux/txt/nl/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/nl/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Vergeet niet uw software te registereren</h2>
++  <p>Als u het installatieproces voltooid hebt (dit duurt nu niet lang meer), kunt u deze software bij Novell registreren. Dit neemt slechts enkele seconden in beslag en is de moeite meer dan waard. Als u bent geregistreerd, dan ontvangt u vroege waarschuwingen over belangrijke software-updates en staat u op onze lijst met potentiële betasites voor nieuwe functionaliteit en nieuwe uitgaven van SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pl/12_business.rtf b/slide-show-git/SuSELinux/txt/pl/12_business.rtf
+index e69de29..e050fcd 100644
+--- a/slide-show-svn/SuSELinux/txt/pl/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/pl/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Oprogramowanie dla przedsiębiorstw</h2>
++
++  <p>Obok instalowanej właśnie dystrybucji społeczności SUSE Linux, firma Novell dostarcza systemy Linux specjalnie przygotowane dla biznesu oraz wsparcie dla użytkowników. SUSE Linux Enterprise to specjalna platforma dla przedsiębiorstw. Tylko SUSE Linux Enterprise 10 gwarantuje bezpieczeństwo aplikacji, wirtualizację i możliwość zintegrowanego zarządzania systemami o wielu różnych architekturach sprzętowych. Tylko z pomocą SUSE Linux Enterprise 10 przedsiębiorstwa mogą sobie lepiej radzić z rosnącą konkurencją, spiralą kosztów, zagrożeniami bezpieczeństwa i wymaganiami klientów.</p>
++ 
++  <p>Linia produktów Novell Enterprise Linux obejmuje SUSE Linux Enterprise Server, Novell Open Enterprise Server i Novell Linux Desktop. Nasze zaawansowane produkty są dostarczane z pięcioletnią gwarancją wsparcia technicznego, opcjonalnymi programami wsparcia i unikalnym programem ubezpieczenia Linuksa.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pl/13_register.rtf b/slide-show-git/SuSELinux/txt/pl/13_register.rtf
+index e69de29..3e44392 100644
+--- a/slide-show-svn/SuSELinux/txt/pl/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/pl/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Zachęcamy do zarejestrowania SUSE Linux</h2>
++  <p>Już za chwilę, po zakończeniu procesu instalacji, będzie można zarejestrować system w firmie Novell. Proces ten nie jest długotrwały. Dzięki rejestracji będziemy mogli dostarczać Państwu ważne informacje o uaktualnieniach natychmiast po ich publikacji oraz zaprosić do testowania nowych funkcji i wydań SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pt/12_business.rtf b/slide-show-git/SuSELinux/txt/pt/12_business.rtf
+index e69de29..4f25460 100644
+--- a/slide-show-svn/SuSELinux/txt/pt/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/pt/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software para a Empresa Aberta</h2>
++
++  <p>Para além do SUSE Linux, a distribuição comunitária que está agora a instalar, a Novell fornece sistemas operativos especificamente desenhados e suportados para a utilização empresarial. O SUSE Linux Enterprise é a plataforma para a empresa aberta. Apenas o SUSE Linux Enterprise 10 lhe oferece segurança aplicacional integrada, virtualização e gestão de integração de sistemas ao longo de toda a gama de arquitecturas de hardware. Com o SUSE Linux Enterprise 10, as organizações podem abordar de forma mais eficaz as complexidades da concorrência, os custos em espiral, as crescentes ameaças de segurança, e clientes exigentes.</p>
++ 
++  <p>A plataforma SUSE Linux Enterprise, inclui tanto um servidor empresarial, como componentes de ambiente de trabalho empresarial . Os nossos produtos empresariais são entregues com uma garantia de suporte de sete anos, programas opcionais de suporte, e um programa único de indemnizações Linux.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pt/13_register.rtf b/slide-show-git/SuSELinux/txt/pt/13_register.rtf
+index e69de29..da0c951 100644
+--- a/slide-show-svn/SuSELinux/txt/pt/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/pt/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Não se Esqueça de Registar o Seu Software</h2>
++  <p>Quando completar o processo de instalação (que já não vai demorar), terá a oportunidade de registar este software na Novell. Apenas lhe irá tomar alguns segundos, e vale a pena. Quando se registar, receberá notificações antecipadas de actualizações importantes de software, e ficará na nossa lista de potenciais beta sites para novas funcionalidades e novos lançamentos do SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pt_BR/12_business.rtf b/slide-show-git/SuSELinux/txt/pt_BR/12_business.rtf
+index e69de29..59c1c69 100644
+--- a/slide-show-svn/SuSELinux/txt/pt_BR/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/pt_BR/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Software para a Empresa Aberta</h2>
++
++  <p>Além do SUSE Linux, a distribuição para a comunidade que você está instalando neste momento, a Novell oferece sistemas operacionais Linux especificamente projetados e com suporte para aplicações comerciais. O SUSE Linux Enterprise é a plataforma para a empresa aberta. Somente o SUSE Linux Enterprise 10 oferece segurança de aplicativos, virtualização e gerenciamento integrado de sistemas em toda a gama de arquiteturas de hardware. Com o SUSE Linux Enterprise 10, as organizações têm melhores condições de lidar com as complexidades da crescente concorrência, custos galopantes, ameaças de segurança cada vez maiores e clientes exigentes.</p>
++ 
++  <p>A plataforma SUSE Linux Enterprise inclui tanto componentes de servidor para empresas como área de trabalho para empresas. Nossos produtos para empresas têm garantia de manutenção de sete anos, programas de suporte opcionais e um programa de indenização exclusivo do Linux.</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/pt_BR/13_register.rtf b/slide-show-git/SuSELinux/txt/pt_BR/13_register.rtf
+index e69de29..eb3d444 100644
+--- a/slide-show-svn/SuSELinux/txt/pt_BR/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/pt_BR/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Não Esqueça de Registrar seu Software</h2>
++  <p>Quando você concluir o processo de instalação (não demorará muito agora), terá a oportunidade de registrar este software na Novell. Isso vai demorar apenas alguns segundosm e vale à pena. Quando você estiver registrado, receberá uma notificação prévia sobre as atualizações de software importantes e você será incluido na nossa lista de sites de teste para novos recursos e novas versões do SUSE Linux.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/sl/12_business.rtf b/slide-show-git/SuSELinux/txt/sl/12_business.rtf
+index e69de29..3de9bf4 100644
+--- a/slide-show-svn/SuSELinux/txt/sl/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/sl/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Programje za Open Enterprise</h2>
++
++  <p>Poleg SUSE Linuxa, ki ga pravkar nameščate, Novell nudi tudi različice operacijskega sistema Linux, ki so namensko prilagojene za poslovno rabo. SUSE Linux Enterprise 10 ima vgrajeno podporo za varnost programov, sistemsko upravljanje in široko podporo za različne sestave strojne opreme. Podjetja se lahko s pomočjo SUSE Linux Enterprise 10 lažje uveljavljajo v svetu konkurence, vse višjih stroškov poslovanja, naraščajočega ogrožanja varnosti in vse bolj zahtevnih strank.</p>
++ 
++  <p>Linija izdelkov Novell Enterprise Linux vsebuje SUSE LINUX Enterprise Server, Novell Open Enterprise Server in Novell Linux Desktop. Naši izdelki za podjetja vsebujejo jamstvo vzdrževanja v trajanju 5 let, dodatne programe za podporo in zaščitni program za Linux .</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/sl/13_register.rtf b/slide-show-git/SuSELinux/txt/sl/13_register.rtf
+index e69de29..ba198d1 100644
+--- a/slide-show-svn/SuSELinux/txt/sl/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/sl/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Ne pozabite registrirati svoje programske opreme</h2>
++  <p>Po končani namestitvi programske opreme (ne bo trajala dolgo!), lahko svojo programsko opremo registrirate pri Novellu. Registracija traja le nekaj sekund in se izplača. Če se registrirate, boste obveščeni o pomembnih posodobitvah programske opreme , hkrati pa boste uvrščeni na seznam za beta testiranje novih zmožnosti in novih različic SUSE Linuxa.</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/zh_CN/12_business.rtf b/slide-show-git/SuSELinux/txt/zh_CN/12_business.rtf
+index e69de29..2a2d661 100644
+--- a/slide-show-svn/SuSELinux/txt/zh_CN/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/zh_CN/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>开放企业的软件</h2>
++
++  <p>除了您此刻正在安装的团体版本 SUSE Linux 之外，Novell 还会交付特别为业务部署设计和支持的 Linux 操作系统。SUSE Linux Enterprise 是开放性企业的平台。 只有 SUSE Linux Enterprise 10 才能跨越所有硬件体系结构提供内置应用程序安全性、虚拟化和全面的系统管理。有了 SUSE Linux Enterprise 10，组织就能更好地处理一些复杂问题，例如，越来越激烈的竞争、上升的成本、不断增加的安全隐患以及苛求的客户。</p>
++ 
++  <p>SUSE Linux Enterprise 平台包括企业服务器和企业桌面组件。我们的企业产品提供 7 年的维护保证、可供选择的支持计划和一个独特的 Linux 保障计划。</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/zh_CN/13_register.rtf b/slide-show-git/SuSELinux/txt/zh_CN/13_register.rtf
+index e69de29..af269a8 100644
+--- a/slide-show-svn/SuSELinux/txt/zh_CN/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/zh_CN/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>请勿忘记注册您的软件</h2>
++  <p>完成安装过程后（现在可以很快完成），您将有机会在 Novell 注册本软件。注册只需要几秒钟时间，而且非常有必要。注册后，我们将及时向您通知重要的软件更新，同时将您列入进行 SUSE Linux 新功能和新发行版可能的 beta 测试的站点中。</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/zh_TW/12_business.rtf b/slide-show-git/SuSELinux/txt/zh_TW/12_business.rtf
+index e69de29..f98b309 100644
+--- a/slide-show-svn/SuSELinux/txt/zh_TW/12_business.rtf
++++ b/slide-show-git/SuSELinux/txt/zh_TW/12_business.rtf
+@@ -0,0 +1,15 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/12_business.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>Open Enterprise 的軟體</h2>
++
++  <p>除了您目前安裝的設群配送版 SUSE Linux 以外，Novell 還提供專為企業使用所設計、支援的 Linux 作業系統。SUSE Linux Enterprise 就是為了開放企業所推出的平台。只有 SUSE Linux Enterprise 10 針對所有的硬體架構，提供內建的應用程式安全性、虛擬化與整合系統管理。有了 SUSE Linux Enterprise 10，企業組織就更能處理競爭漸趨激烈、成本攀升、安全威脅增加、客戶要求更高的複雜局面。</p>
++ 
++  <p>SUSE Linux Enterprise 平台包含企業伺服器和企業桌面元件。我們的企業產品含 7 年維護保固、可選購的支援計畫、與唯一的 Linux 保障計畫。</p>
++
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/SuSELinux/txt/zh_TW/13_register.rtf b/slide-show-git/SuSELinux/txt/zh_TW/13_register.rtf
+index e69de29..e996d81 100644
+--- a/slide-show-svn/SuSELinux/txt/zh_TW/13_register.rtf
++++ b/slide-show-git/SuSELinux/txt/zh_TW/13_register.rtf
+@@ -0,0 +1,12 @@
++<table cellspacing="10" cellpadding="5">
++  <tr>
++    <td valign="top">
++      <img src="&imagedir;/13_register.png" width="150" valign="top">
++    </td>
++    <td>
++  <h2>不要忘記註冊您的軟體</h2>
++  <p>當您完成安裝程序時 (已經快完成了)，您可以順便在 Novell 註冊此軟體。過程只要幾秒鐘的時間，而且保證值回票價。當您註冊以後，您會提早收到重要軟體更新的通知，而且將會列名在 SUSE Linux 新功能與新版本的潛在測試網站名單上。</p>
++ 
++ </td>
++  </tr>
++</table>
+diff --git a/slide-show-svn/testsuite/start b/slide-show-git/testsuite/start
+old mode 100755
+new mode 100644

@@ -1,0 +1,6 @@
+diff --git a/tv-svn/data/create_tuner_db b/tv-git/data/create_tuner_db
+old mode 100755
+new mode 100644
+diff --git a/tv-svn/data/create_tv_db b/tv-git/data/create_tv_db
+old mode 100755
+new mode 100644

@@ -1,0 +1,36 @@
+diff --git a/printer-svn/tools/autodetect_print_queues b/printer-git/tools/autodetect_print_queues
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/autodetect_printers b/printer-git/tools/autodetect_printers
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/create_printer_ppd_database b/printer-git/tools/create_printer_ppd_database
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/cups_client_only b/printer-git/tools/cups_client_only
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/determine_printer_driver_options b/printer-git/tools/determine_printer_driver_options
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/modify_cupsd_conf b/printer-git/tools/modify_cupsd_conf
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_device b/printer-git/tools/test_device
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_ipp b/printer-git/tools/test_remote_ipp
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_lpd b/printer-git/tools/test_remote_lpd
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_novell b/printer-git/tools/test_remote_novell
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_smb b/printer-git/tools/test_remote_smb
+old mode 100755
+new mode 100644
+diff --git a/printer-svn/tools/test_remote_socket b/printer-git/tools/test_remote_socket
+old mode 100755
+new mode 100644
