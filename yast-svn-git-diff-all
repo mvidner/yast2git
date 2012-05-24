@@ -1,0 +1,40 @@
+#!/bin/sh -e
+MODULES="network core"
+
+BRANCHES="master
+openSUSE-12_1
+openSUSE-11_4
+Code-11-SP2
+Code-11-SP1
+SLE-10-SP4
+SLE-10-SP3"
+
+#SVNROOT=http://svn.opensuse.org/svn/yast
+SVNROOT=file:///home/mvidner/2/yast2git/yast-svn
+#GITROOT=git://github.com/yast
+GITROOT=file:///home/mvidner/svn/yast-%s
+
+
+for MODULE in $MODULES; do
+    GITREPO=`printf $GITROOT $MODULE`
+
+    for BRANCH in $BRANCHES; do
+
+        case $BRANCH in
+            master)
+                SVNBRANCH=trunk ;;
+            openSUSE-12_1)
+                SVNBRANCH=branches/SuSE-Linux-12_1-Branch ;;
+            openSUSE-11_4)
+                SVNBRANCH=branches/SuSE-Linux-11_4-Branch ;;
+            Code-11-SP2|Code-11-SP1|SLE-10-SP4|SLE-10-SP3)
+                SVNBRANCH=branches/SuSE-$BRANCH-Branch ;;
+        esac
+
+        SVNREPO=$SVNROOT/${SVNBRANCH?}/$MODULE
+
+        DIFF=$MODULE-$BRANCH.diff
+        `dirname $0`/yast-svn-git-diff $SVNREPO $GITREPO $BRANCH > $DIFF
+        diffstat $DIFF
+    done
+done

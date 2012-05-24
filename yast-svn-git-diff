@@ -1,0 +1,28 @@
+#!/bin/sh -ex
+
+# check whether svn to git migration produces identical trees
+
+# TODO: specific revisions/commits, not only branch tips
+# $1 SVN URL (ROOT/BRANCH/MODULE)
+# $2 git repo
+# $3 git branch
+# $4 name; optional, basename of svn url is used
+
+# svn export --ignore-keywords only works since svn 1.7, in devel:tools:scm:svn
+
+SVNREPO="$1"
+GITREPO="$2"
+GITBRANCH="$3"
+NAME="${4-${SVNREPO##*/}}"
+
+DIR=`mktemp -d`
+cd $DIR
+
+svn export --quiet --ignore-keywords $SVNREPO $NAME-svn
+git archive --format=tar --prefix $NAME-git/ --remote=$GITREPO origin/$GITBRANCH | \
+    tar xf -
+
+diff -urN $NAME-svn $NAME-git || :
+
+cd ..
+rm -rf $DIR
