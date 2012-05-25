@@ -1,7 +1,7 @@
 #!/bin/sh -e
 MYDIR=`dirname $0`
 
-MODULES="$(cat $MYDIR/yast-svn-git-diff.list)"
+MODULES="libyui libyui-bindings ncurses qt qt-graph gtk"
 
 BRANCHES="master
 openSUSE-12_1
@@ -13,13 +13,18 @@ SLE-10-SP3"
 
 #SVNROOT=https://svn.opensuse.org/svn/yast
 SVNROOT=file:///home/mvidner/2/yast2git/yast-svn
-GITROOT=git://github.com/yast/yast-%s.git
+GITROOT=git://github.com/libyui/%s.git
 
 GITCACHE=/var/tmp/github-yast
 mkdir -p $GITCACHE
 
 for MODULE in $MODULES; do
-    REMOTE=`printf $GITROOT $MODULE`
+    case $MODULE in
+        libyui*)
+            REMOTE=`printf $GITROOT $MODULE`;;
+        *)
+            REMOTE=`printf $GITROOT libyui-$MODULE`;;
+    esac
     echo $REMOTE
 
     # cannot get github to archive. clone first, shallow is enough

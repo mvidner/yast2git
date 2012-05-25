@@ -1,0 +1,6 @@
+diff --git a/gtk-svn/tests/Layout-Truncated-Widget.ycp b/gtk-git/tests/Layout-Truncated-Widget.ycp
+old mode 100755
+new mode 100644
+diff --git a/gtk-svn/tests/Table3-4.ycp b/gtk-git/tests/Table3-4.ycp
+old mode 100755
+new mode 100644
